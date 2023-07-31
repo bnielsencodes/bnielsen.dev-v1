@@ -1,6 +1,10 @@
+"use client";
+import { useState } from "react";
 import Tooltip from "./Tooltip";
 
 export default function Skill(props) {
+  const [showTooltip, setShowTooltip] = useState(false);
+
   return (
     <>
       <div
@@ -9,6 +13,7 @@ export default function Skill(props) {
         <Tooltip
           name={props.skill.name}
           tech={props.skill.tech}
+          showTooltip={showTooltip}
         />
         <div
           className={`${styles.icon} ${styles[`icon--${props.skill.name}`]}`}
