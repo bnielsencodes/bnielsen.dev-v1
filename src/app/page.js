@@ -5,6 +5,7 @@ import DividerTop from "@/app/components/projects/DividerTop";
 import DividerBottom from "@/app/components/projects/DividerBottom";
 import ProjectsSection from "@/app/components/projects/ProjectsSection";
 import ContactSection from "@/app/components/contact/ContactSection";
+import FooterSection from "@/app/components/footer/FooterSection";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <ProjectsSection />
         <DividerBottom id="bottom-divider" />
         <ContactSection />
+        <FooterSection returnHomePath="#header" />
       </main>
     </>
   );
