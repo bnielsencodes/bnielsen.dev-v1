@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import NavList from "@/app/components/navigation/NavList";
+import MobileNav from "@/app/components/navigation/MobileNav";
 
 export default function Navigation(props) {
   const [showMobileNav, setShowMobileNav] = useState(false);
@@ -50,6 +51,7 @@ export default function Navigation(props) {
           <div className={`${styles.bar} ${styles.barTop}`}></div>
           <div className={`${styles.bar} ${styles.barMid}`}></div>
           <div className={`${styles.bar} ${styles.barBottom}`}></div>
+          <MobileNav showMobileNav={showMobileNav} />
         </div>
       </nav>
     </>
