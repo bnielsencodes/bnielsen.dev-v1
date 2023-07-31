@@ -12,6 +12,7 @@ export default function ProjectsSection() {
         <h2 className={styles.heading}>
           <span className={styles.span}>Projects</span>
         </h2>
+        <div className={styles.list}>{featuredProjects}</div>
       </section>
     </>
   );
