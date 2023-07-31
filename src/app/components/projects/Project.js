@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ProjectTech from "@/app/components/projects/ProjectTech";
+import ProjectBtns from "@/app/components/projects/ProjectBtns";
 
 export default function Project(props) {
   return (
@@ -28,6 +29,7 @@ export default function Project(props) {
               {props.project.description}
             </p>
             <ProjectTech project={props.project} />
+            <ProjectBtns project={props.project} />
           </div>
         </div>
       </article>
