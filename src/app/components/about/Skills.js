@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { skills } from "../../../data";
 import Skill from "@/app/components/about/Skill";
+import styles from "./Skills.module.scss";
 
 const skillsLeft = skills.slice(0, 3).map((skill) => {
   return <Skill key={skill.id} skill={skill} />;

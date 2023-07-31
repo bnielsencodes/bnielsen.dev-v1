@@ -1,0 +1,33 @@
+@import "../../../styles/variables.module.scss",
+  "../../../styles/mixins.module.scss";
+
+.motion {
+  width: 340px;
+  margin-inline: auto;
+}
+
+.skills {
+  @include flex-col-center-x;
+  height: 580px;
+  margin-inline: auto;
+  & .heading {
+    width: 105px;
+    border-bottom: 4px solid $color-primary;
+    margin: 0 auto;
+    font-size: 1.4rem;
+  }
+  & .container {
+    @include flex-center-y;
+    justify-content: space-between;
+    min-width: 255px;
+    margin-top: 60px;
+    & .hex-group {
+      &--left,
+      &--middle,
+      &--right {
+        @include flex-col-center-x;
+        width: 68px;
+      }
+    }
+  }
+}
