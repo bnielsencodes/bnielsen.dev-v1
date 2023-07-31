@@ -4,6 +4,7 @@ import AboutSection from "@/app/components/about/AboutSection";
 import DividerTop from "@/app/components/projects/DividerTop";
 import DividerBottom from "@/app/components/projects/DividerBottom";
 import ProjectsSection from "@/app/components/projects/ProjectsSection";
+import ContactSection from "@/app/components/contact/ContactSection";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <DividerTop id="top-divider" />
         <ProjectsSection />
         <DividerBottom id="bottom-divider" />
+        <ContactSection />
       </main>
     </>
   );
