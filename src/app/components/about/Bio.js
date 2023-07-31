@@ -1,4 +1,6 @@
 "use client";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMapPin } from "@fortawesome/pro-duotone-svg-icons";
 import { motion } from "framer-motion";
 
 export default function Bio() {
@@ -32,6 +34,10 @@ export default function Bio() {
           <div className={styles.locationContainer}>
             <div className={styles.inner}>
               <div className={styles.icon}>
+                <FontAwesomeIcon
+                  className={styles["fa-map-pin"]}
+                  icon={faMapPin}
+                />
               </div>
               <h4 className={styles.location}>Oregon, US</h4>
             </div>
