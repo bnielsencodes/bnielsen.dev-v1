@@ -40,3 +40,19 @@
     }
   }
 }
+
+@include breakpoint(tablet) {
+  .project {
+    &--left {
+      margin: 0 auto 80px 40px;
+    }
+    &--right {
+      margin: 0 40px 80px auto;
+    }
+    & .container--bottom {
+      & .heading {
+        font-size: 1.7rem;
+      }
+    }
+  }
+}
