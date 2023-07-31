@@ -28,3 +28,23 @@
     }
   }
 }
+
+@include breakpoint(tablet) {
+  .project-page {
+    padding-top: 70px;
+  }
+
+  #contact-section {
+    & .heading {
+      font-size: 2.45rem;
+      & .span {
+        font-size: 2rem;
+        &::after {
+          left: 28px;
+          width: 347px;
+          height: 13px;
+        }
+      }
+    }
+  }
+}
