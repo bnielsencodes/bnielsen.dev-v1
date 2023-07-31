@@ -2,6 +2,19 @@
 import { motion } from "framer-motion";
 import { skills } from "../../../data";
 import Skill from "@/app/components/about/Skill";
+
+const skillsLeft = skills.slice(0, 3).map((skill) => {
+  return <Skill key={skill.id} skill={skill} />;
+});
+
+const skillsMiddle = skills.slice(3, 7).map((skill) => {
+  return <Skill key={skill.id} skill={skill} />;
+});
+
+const skillsRight = skills.slice(7, 11).map((skill) => {
+  return <Skill key={skill.id} skill={skill} />;
+});
+
 export default function Skills() {
   return (
     <>
