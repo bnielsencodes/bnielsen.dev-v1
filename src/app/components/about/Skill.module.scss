@@ -154,3 +154,374 @@
     }
   }
 }
+
+@include breakpoint(desktop) {
+  .skill {
+    &:hover {
+      cursor: help;
+      & .icon {
+        &--css {
+          & .svg {
+            &--css-color1 {
+              fill: #1572b6;
+            }
+            &--css-color2 {
+              fill: #33a9dc;
+            }
+            &--css-color3 {
+              fill: #fff;
+            }
+            &--css-color4 {
+              fill: #ebebeb;
+            }
+            &--css-color5 {
+              fill: #fff;
+            }
+            &--css-color6 {
+              fill: #ebebeb;
+            }
+          }
+        }
+        &--figma {
+          animation: figmaGradientAnimation 3.75s ease 0s infinite normal none;
+          & .svg {
+            &--figma-color1 {
+              fill: #0acf83;
+              stroke: #0acf83;
+            }
+            &--figma-color2 {
+              fill: #a259ff;
+              stroke: #a259ff;
+            }
+            &--figma-color3 {
+              fill: #f24e1e;
+              stroke: #f24e1e;
+            }
+            &--figma-color4 {
+              fill: #ff7262;
+              stroke: #ff7262;
+            }
+            &--figma-color5 {
+              fill: #1abcfe;
+              stroke: #1abcfe;
+            }
+          }
+        }
+        &--git {
+          & .svg {
+            &--git {
+              fill: $color-git;
+            }
+          }
+        }
+        &--html {
+          & .svg {
+            &--html-color1 {
+              fill: #e44d26;
+            }
+            &--html-color2 {
+              fill: #f16529;
+            }
+            &--html-color3 {
+              fill: #ebebeb;
+            }
+            &--html-color4 {
+              fill: #fafafa;
+            }
+          }
+        }
+        &--js {
+          & .svg {
+            &--js-color1 {
+              fill: $color-js;
+            }
+            &--js-color2 {
+              fill: #272727;
+            }
+          }
+        }
+        &--next {
+          & .svg {
+            &--next {
+              fill: #fff;
+            }
+          }
+        }
+        &--react {
+          & .svg {
+            &--react {
+              fill: $color-react;
+            }
+          }
+        }
+        &--sass {
+          & .svg {
+            &--sass {
+              fill: $color-sass;
+            }
+          }
+        }
+        &--tailwind {
+          & .svg {
+            &--tailwind {
+              fill: $color-tailwind;
+            }
+          }
+        }
+        &--vite {
+          & .svg {
+            animation: viteGradientAnimation 3.75s ease 0s infinite normal none;
+            &--vite-stroke {
+              stroke: none;
+            }
+            &--vite-color1 {
+              stop-color: #41d1ff;
+            }
+            &--vite-color2 {
+              stop-color: #bd34fe;
+            }
+            &--vite-color3 {
+              stop-color: #ffea83;
+            }
+            &--vite-color4 {
+              stop-color: #ffdd35;
+            }
+            &--vite-color5 {
+              stop-color: #ffa800;
+            }
+          }
+        }
+      }
+      & .border {
+        & .left {
+          &--css {
+            border-right: 28.5px solid $color-css;
+          }
+          &--figma {
+            animation: figmaBorderLeftGradientAnimation 3.75s ease 0s infinite
+              normal none;
+          }
+          &--git {
+            border-right: 28.5px solid $color-git;
+          }
+          &--html {
+            border-right: 28.5px solid $color-html;
+          }
+          &--js {
+            border-right: 28.5px solid $color-js;
+          }
+          &--next {
+            border-right: 28.5px solid #fff;
+          }
+          &--react {
+            border-right: 28.5px solid $color-react;
+          }
+          &--sass {
+            border-right: 28.5px solid $color-sass;
+          }
+          &--tailwind {
+            border-right: 28.5px solid $color-tailwind;
+          }
+          &--vite {
+            animation: viteBorderLeftGradientAnimation 3.75s ease 0s infinite
+              normal none;
+          }
+        }
+        & .middle {
+          &--css {
+            background: $color-css;
+          }
+          &--figma {
+            animation: figmaBgGradientAnimation 3.75s ease 0s infinite normal
+              none;
+          }
+          &--git {
+            background: $color-git;
+          }
+          &--html {
+            background: $color-html;
+          }
+          &--js {
+            background: $color-js;
+          }
+          &--next {
+            background: #fff;
+          }
+          &--react {
+            background: $color-react;
+          }
+          &--sass {
+            background: $color-sass;
+          }
+          &--tailwind {
+            background: $color-tailwind;
+          }
+          &--vite {
+            animation: viteBgGradientAnimation 3.75s ease 0s infinite normal
+              none;
+          }
+        }
+        & .right {
+          &--css {
+            border-left: 28.5px solid $color-css;
+          }
+          &--figma {
+            animation: figmaBorderRightGradientAnimation 3.75s ease 0s infinite
+              normal none;
+          }
+          &--git {
+            border-left: 28.5px solid $color-git;
+          }
+          &--html {
+            border-left: 28.5px solid $color-html;
+          }
+          &--js {
+            border-left: 28.5px solid $color-js;
+          }
+          &--next {
+            border-left: 28.5px solid #fff;
+          }
+          &--react {
+            border-left: 28.5px solid $color-react;
+          }
+          &--sass {
+            border-left: 28.5px solid $color-sass;
+          }
+          &--tailwind {
+            border-left: 28.5px solid $color-tailwind;
+          }
+          &--vite {
+            animation: viteBorderRightGradientAnimation 3.75s ease 0s infinite
+              normal none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include keyframes(viteBgGradientAnimation) {
+  0% {
+    background: hsla(195, 100%, 63%, 1);
+  }
+  20% {
+    background: hsla(281, 99%, 60%, 1);
+  }
+  40% {
+    background: hsla(50, 100%, 76%, 1);
+  }
+  60% {
+    background: hsla(50, 100%, 60%, 1);
+  }
+  80% {
+    background: hsla(40, 100%, 50%, 1);
+  }
+  100% {
+    background: hsla(195, 100%, 63%, 1);
+  }
+}
+
+@include keyframes(viteBorderLeftGradientAnimation) {
+  0% {
+    border-right: 28.5px solid hsla(195, 100%, 63%, 1);
+  }
+  20% {
+    border-right: 28.5px solid hsla(281, 99%, 60%, 1);
+  }
+  40% {
+    border-right: 28.5px solid hsla(50, 100%, 76%, 1);
+  }
+  60% {
+    border-right: 28.5px solid hsla(50, 100%, 60%, 1);
+  }
+  80% {
+    border-right: 28.5px solid hsla(40, 100%, 50%, 1);
+  }
+  100% {
+    border-right: 28.5px solid hsla(195, 100%, 63%, 1);
+  }
+}
+
+@include keyframes(viteBorderRightGradientAnimation) {
+  0% {
+    border-left: 28.5px solid hsla(195, 100%, 63%, 1);
+  }
+  20% {
+    border-left: 28.5px solid hsla(281, 99%, 60%, 1);
+  }
+  40% {
+    border-left: 28.5px solid hsla(50, 100%, 76%, 1);
+  }
+  60% {
+    border-left: 28.5px solid hsla(50, 100%, 60%, 1);
+  }
+  80% {
+    border-left: 28.5px solid hsla(40, 100%, 50%, 1);
+  }
+  100% {
+    border-left: 28.5px solid hsla(195, 100%, 63%, 1);
+  }
+}
+
+@include keyframes(figmaBgGradientAnimation) {
+  0% {
+    background: hsla(13, 80%, 51%, 1);
+  }
+  20% {
+    background: hsla(6, 85%, 66%, 1);
+  }
+  40% {
+    background: hsla(267, 85%, 64%, 1);
+  }
+  60% {
+    background: hsla(197, 89%, 52%, 1);
+  }
+  80% {
+    background: hsla(156, 86%, 41%, 1);
+  }
+  100% {
+    background: hsla(13, 80%, 51%, 1);
+  }
+}
+
+@include keyframes(figmaBorderLeftGradientAnimation) {
+  0% {
+    border-right: 28.5px solid hsla(13, 80%, 51%, 1);
+  }
+  20% {
+    border-right: 28.5px solid hsla(6, 85%, 66%, 1);
+  }
+  40% {
+    border-right: 28.5px solid hsla(267, 85%, 64%, 1);
+  }
+  60% {
+    border-right: 28.5px solid hsla(197, 89%, 52%, 1);
+  }
+  80% {
+    border-right: 28.5px solid hsla(156, 86%, 41%, 1);
+  }
+  100% {
+    border-right: 28.5px solid hsla(13, 80%, 51%, 1);
+  }
+}
+
+@include keyframes(figmaBorderRightGradientAnimation) {
+  0% {
+    border-left: 28.5px solid hsla(13, 80%, 51%, 1);
+  }
+  20% {
+    border-left: 28.5px solid hsla(6, 85%, 66%, 1);
+  }
+  40% {
+    border-left: 28.5px solid hsla(267, 85%, 64%, 1);
+  }
+  60% {
+    border-left: 28.5px solid hsla(197, 89%, 52%, 1);
+  }
+  80% {
+    border-left: 28.5px solid hsla(156, 86%, 41%, 1);
+  }
+  100% {
+    border-left: 28.5px solid hsla(13, 80%, 51%, 1);
+  }
+}
