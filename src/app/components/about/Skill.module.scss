@@ -1,0 +1,156 @@
+@import "../../../styles/variables.module.scss",
+  "../../../styles/mixins.module.scss";
+
+.skill {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 46px;
+  text-align: center;
+  & .icon {
+    width: 55px;
+    height: 55px;
+    &--css {
+      transform: translate(0px, 4.5px);
+    }
+    &--figma {
+      transform: translate(0px, 4.5px);
+    }
+    &--git {
+      transform: translate(0px, 4.5px);
+    }
+    &--html {
+      transform: translate(0px, 4.5px);
+    }
+    &--js {
+      transform: translate(-0.5px, 7px);
+    }
+    &--next {
+      transform: translate(1px, 4.5px);
+    }
+    &--react {
+      transform: translate(0.5px, 4.5px);
+    }
+    &--sass {
+      transform: translate(4px, 4.5px);
+    }
+    &--tailwind {
+      transform: translate(-0.5px, 2px);
+    }
+    &--vite {
+      transform: translate(0px, 5px);
+    }
+  }
+  & .hex {
+    position: absolute;
+    top: -12px;
+    z-index: -1;
+    @include flex-center-x;
+    pointer-events: none;
+    &--css,
+    &--html,
+    &--vite {
+      left: -27.5px;
+    }
+    &--figma {
+      left: -26px;
+    }
+    &--git {
+      left: -27px;
+    }
+    &--js {
+      left: -28px;
+    }
+    &--next {
+      left: -26.5px;
+    }
+    &--react {
+      left: -27px;
+    }
+    &--sass {
+      left: -26.5px;
+    }
+    &--tailwind {
+      left: -25.5px;
+    }
+    & .left,
+    & .middle,
+    & .right {
+      z-index: -1;
+      height: 0;
+    }
+    & .left,
+    & .right {
+      width: 0;
+    }
+    & .left {
+      border-top: 44px solid transparent;
+      border-right: 27.5px solid $color-neutral-200;
+      border-bottom: 44px solid transparent;
+    }
+    & .middle {
+      width: 55px;
+      height: 88px;
+      background: $color-neutral-200;
+    }
+    & .right {
+      border-top: 44px solid transparent;
+      border-bottom: 44px solid transparent;
+      border-left: 27.5px solid $color-neutral-200;
+    }
+  }
+  & .border {
+    position: absolute;
+    top: -14px;
+    @include flex-center-x;
+    pointer-events: none;
+    &--css,
+    &--html,
+    &--vite {
+      left: -29.5px;
+    }
+    &--figma {
+      left: -28px;
+    }
+    &--git {
+      left: -29px;
+    }
+    &--js {
+      left: -30px;
+    }
+    &--next {
+      left: -28.5px;
+    }
+    &--react {
+      left: -29px;
+    }
+    &--sass {
+      left: -28.5px;
+    }
+    &--tailwind {
+      left: -27.5px;
+    }
+    & .left,
+    & .middle,
+    & .right {
+      z-index: -2;
+      height: 0;
+    }
+    & .left,
+    & .right {
+      width: 0;
+      border-top: 46px solid transparent;
+      border-bottom: 46px solid transparent;
+    }
+    & .left {
+      border-right: 28.5px solid $color-primary;
+    }
+    & .middle {
+      width: 57px;
+      height: 92px;
+      background: $color-primary;
+    }
+    & .right {
+      border-left: 28.5px solid $color-primary;
+    }
+  }
+}

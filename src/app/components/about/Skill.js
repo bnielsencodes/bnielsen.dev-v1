@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Tooltip from "./Tooltip";
+import styles from "./Skill.module.scss";
 
 export default function Skill(props) {
   const [showTooltip, setShowTooltip] = useState(false);
