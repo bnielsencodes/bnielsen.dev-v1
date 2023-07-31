@@ -6,6 +6,7 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -39,6 +40,23 @@
 - [Mobile-first workflow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 - [FormSpree React](https://help.formspree.io/hc/en-us/articles/360055613373-The-Formspree-React-library)
 - [VS Code](https://code.visualstudio.com/) - Integrated development environment
+
+### Useful Resources
+
+- [CSS Modules by Example](https://www.javascriptstuff.com/css-modules-by-example)
+- [Animated Hamburger Menu](https://teamtreehouse.com/library/animated-hamburger-menu/animated-hamburger-menu)
+- [How to Use tsParticles](https://dev.to/tsparticles/how-to-use-tsparticles-52k)
+- [How to Use tsParticles(2)](https://dev.to/tauleshwar/how-to-use-particles-js-in-react-with-react-tsparticles-3dpl)
+- [Framer Motion - Scroll Animations](https://www.framer.com/motion/scroll-animations)
+- [Font Awesome - Set Up w/ React](https://fontawesome.com/docs/web/use-with/react)
+- [How to add Font Awesome to Next.js Project](https://stackoverflow.com/questions/44752189/how-to-add-font-awesome-to-next-js-project)
+- [Font Awesome React - "npm install failing with 404 error"](https://stackoverflow.com/questions/69301035/npm-install-failing-with-404-error-fortawesome2fpro-regular-svg-icons-not)
+- [Font Awesome React - Add Support for Duotone Icons](https://github.com/FortAwesome/react-fontawesome/issues/259)
+- [Access Hover State in React](https://stackoverflow.com/questions/32125708/how-can-i-access-a-hover-state-in-reactjs)
+- [Add Smooth Scroll in Next.js](https://stackoverflow.com/questions/69825670/smooth-scroll-in-next-js)
+- [How to Build a Tooltip Component w/ React](https://medium.com/@jsmuster/building-a-tooltip-component-with-react-2de14761e02)
+- [Implementing Copy-to-Clipboard in React with Clipboard API](https://blog.logrocket.com/implementing-copy-clipboard-react-clipboard-api/)
+- ["I am getting the error "The requested resource isn't a valid image.."](https://stackoverflow.com/questions/71617582/i-am-getting-the-error-the-requested-resource-isnt-a-valid-image-for-public-l)
 
 ## Author
 
