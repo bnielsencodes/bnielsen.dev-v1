@@ -1,3 +1,5 @@
+import HeaderCTABtn from "./HeaderCTABtn";
+
 export default function HeaderIntro() {
   return (
     <>
@@ -9,6 +11,7 @@ export default function HeaderIntro() {
         </h2>
         <h2 className={styles.subheading}>a front-end web developer.</h2>
       </div>
+      <HeaderCTABtn />
     </>
   );
 }
