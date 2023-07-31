@@ -28,3 +28,22 @@
     }
   }
 }
+
+@include breakpoint(desktop) {
+  .container {
+    & .btn {
+      padding: 0;
+      &::after {
+        right: 0;
+        opacity: 0;
+      }
+      &:hover {
+        padding: 0 24px 0 8px;
+      }
+      &:hover::after {
+        right: 10px;
+        opacity: 1;
+      }
+    }
+  }
+}
