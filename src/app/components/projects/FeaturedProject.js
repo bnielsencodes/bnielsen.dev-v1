@@ -1,3 +1,4 @@
+import ProjectTech from "@/app/components/projects/ProjectTech";
 import styles from "./FeaturedProject.module.scss";
 
 export default function FeaturedProject(props) {
@@ -19,6 +20,7 @@ export default function FeaturedProject(props) {
           <div className={styles["container--bottom"]}>
             <h3 className={styles.heading}>{props.project.name}</h3>
             <p className={styles.description}>{props.project.description}</p>
+            <ProjectTech project={props.project} />
           </div>
         </div>
       </article>
