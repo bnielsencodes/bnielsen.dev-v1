@@ -1,3 +1,5 @@
+import styles from "./ContactSection.module.scss";
+
 export default function ContactSection(props) {
   return (
     <section
