@@ -85,3 +85,15 @@
     }
   }
 }
+
+@include breakpoint(desktop) {
+  .container {
+    & .heading,
+    & .subheading {
+      font-size: 3rem;
+    }
+    & .subheading {
+      min-width: 577px;
+    }
+  }
+}
