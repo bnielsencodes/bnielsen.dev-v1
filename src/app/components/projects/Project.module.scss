@@ -91,3 +91,16 @@
     }
   }
 }
+
+// 1024px
+@include breakpoint(desktop) {
+  .container {
+    max-width: calc(100vw - 460px);
+    & .container--bottom {
+      & .description {
+        padding: 0 12px;
+        font-size: 0.985rem;
+      }
+    }
+  }
+}
