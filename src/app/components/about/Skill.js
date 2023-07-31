@@ -9,6 +9,8 @@ export default function Skill(props) {
     <>
       <div
         className={styles.skill}
+        onMouseEnter={() => setShowTooltip(true)}
+        onMouseLeave={() => setShowTooltip(false)}
       >
         <Tooltip
           name={props.skill.name}
