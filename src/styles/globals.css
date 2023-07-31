@@ -62,3 +62,9 @@ a {
   position: absolute;
   top: 0;
 }
+
+@media only screen and (min-width: 768px) {
+  .hidden--md {
+    display: none;
+  }
+}
