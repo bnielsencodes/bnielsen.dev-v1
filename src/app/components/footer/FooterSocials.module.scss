@@ -1,0 +1,36 @@
+@import "../../../styles/variables.module.scss",
+  "../../../styles/mixins.module.scss";
+
+.container {
+  @include flex-center-y;
+  justify-content: center;
+  padding-left: 9px;
+  & .link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    fill: $color-primary;
+    &:focus {
+      outline: 2px solid $color-secondary;
+    }
+    &--github {
+      margin: 0 33px 0 24px;
+    }
+    & .icon {
+      &--linkedin:hover {
+        fill: $color-social-linkedin;
+        transform: scale(1.1);
+      }
+      &--github {
+        &:hover {
+          fill: $color-social-github;
+          transform: scale(1.1);
+        }
+      }
+      &--email:hover {
+        fill: $color-social-email;
+        transform: scale(1.1);
+      }
+    }
+  }
+}

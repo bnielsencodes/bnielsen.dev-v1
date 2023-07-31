@@ -1,3 +1,5 @@
+import styles from "./FooterSocials.module.scss";
+
 export default function FooterSocials() {
   return (
     <>
