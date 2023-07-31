@@ -31,6 +31,9 @@ export default function Skills() {
         <aside className={styles.skills}>
           <h4 className={styles.heading}>Top Skills</h4>
           <div className={styles.container}>
+            <div className={styles["hex-group--left"]}>{skillsLeft}</div>
+            <div className={styles["hex-group--middle"]}>{skillsMiddle}</div>
+            <div className={styles["hex-group--right"]}>{skillsRight}</div>
           </div>
         </aside>
       </motion.div>
