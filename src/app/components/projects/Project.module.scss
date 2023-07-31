@@ -1,0 +1,47 @@
+@import "../../../styles/variables.module.scss",
+  "../../../styles/mixins.module.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 325px;
+  max-width: calc(100vw - 60px);
+  border: 5px solid #1a1a1a;
+  margin-inline: auto;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.35);
+  & .img-container {
+    width: 100%;
+    background: #1a1a1a;
+    & .img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  & .container--bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 5px;
+    background: #1a1a1a;
+    & .heading {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin: 0 auto;
+      background: #1a1a1a;
+      color: #2cb67d;
+      font-size: 1.35rem;
+      text-align: center;
+    }
+    & .description {
+      padding: 0 8px;
+      margin: 0 0 12px;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  }
+}

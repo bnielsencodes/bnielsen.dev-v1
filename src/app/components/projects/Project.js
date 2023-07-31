@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ProjectTech from "@/app/components/projects/ProjectTech";
 import ProjectBtns from "@/app/components/projects/ProjectBtns";
+import styles from "./Project.module.scss";
 
 export default function Project(props) {
   return (
