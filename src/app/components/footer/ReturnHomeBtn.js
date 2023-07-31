@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronsUp } from "@fortawesome/pro-duotone-svg-icons";
+import styles from "./ReturnHomeBtn.module.scss";
 
 export default function ReturnHomeBtn(props) {
   return (
