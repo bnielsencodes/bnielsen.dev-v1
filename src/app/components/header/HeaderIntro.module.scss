@@ -1,0 +1,71 @@
+@import "../../../styles/variables.module.scss",
+  "../../../styles/mixins.module.scss";
+
+.container {
+  @include flex-col-center-x;
+  justify-content: center;
+  & .heading {
+    max-width: 584px;
+    padding: 12px 12px 0;
+    margin: 0;
+    background: rgb(26 26 26 / 0.8);
+    color: $color-neutral-300;
+    font-size: 1.85rem;
+    font-weight: $font-light;
+    line-height: 1.15;
+    animation-name: moveInLeft;
+    animation-duration: 1.4s;
+    animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+    & .span {
+      color: $color-secondary;
+      &:last-of-type {
+        color: $color-primary;
+      }
+      &::selection {
+        background: $color-secondary;
+        color: $color-neutral-100;
+      }
+      &::-moz-selection {
+        background: $color-secondary;
+        color: $color-neutral-100;
+      }
+    }
+  }
+  & .subheading {
+    width: 220px;
+    padding: 0 0 15px;
+    margin: 0;
+    background: rgb(26 26 26 / 0.8);
+    color: $color-neutral-300;
+    font-size: 1.85rem;
+    font-weight: $font-light;
+    line-height: 1.15;
+    animation-name: moveInRight;
+    animation-duration: 1.4s;
+    animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+  }
+}
+
+@include keyframes(moveInLeft) {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@include keyframes(moveInRight) {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

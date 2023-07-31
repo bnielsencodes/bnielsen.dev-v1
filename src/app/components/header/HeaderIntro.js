@@ -1,4 +1,5 @@
 import HeaderCTABtn from "./HeaderCTABtn";
+import styles from "./HeaderIntro.module.scss";
 
 export default function HeaderIntro() {
   return (
