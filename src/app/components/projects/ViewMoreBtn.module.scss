@@ -1,0 +1,30 @@
+@import "../../../styles/variables.module.scss",
+  "../../../styles/mixins.module.scss";
+
+.container {
+  width: 220px;
+  padding: 8px;
+  border: 4px solid $color-primary;
+  margin: 0 auto 15px;
+  background: $color-neutral-200;
+  text-align: center;
+  box-shadow: 4px 4px 10px 0px rgb(0 0 0 / 0.35);
+  & .btn {
+    display: inline-block;
+    position: relative;
+    padding: 0 24px 0 8px;
+    color: $color-secondary;
+    font-size: 1.3rem;
+    transition: 0.5s;
+    &::after {
+      content: url("/images/arrow-right-sharp-regular.svg");
+      position: absolute;
+      right: 10px;
+      top: 3px;
+      left: 193px;
+      width: 17px;
+      transition: 0.5s;
+      opacity: 1;
+    }
+  }
+}

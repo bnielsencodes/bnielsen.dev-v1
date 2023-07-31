@@ -1,4 +1,5 @@
 import Link from "next/link";
+import styles from "./ViewMoreBtn.module.scss";
 
 export default function ViewMoreBtn() {
   return (
