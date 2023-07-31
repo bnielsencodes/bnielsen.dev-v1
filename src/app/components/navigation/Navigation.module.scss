@@ -1,0 +1,75 @@
+@import "../../../styles/variables.module.scss",
+  "../../../styles/mixins.module.scss";
+
+.nav {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  @include flex-center-y;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 1px solid $color-neutral-100;
+  @include vendor-prefixs(box-shadow, 0 4px 4px rgb(0 0 0 / 30%));
+  background: $color-neutral-200;
+  & .container {
+    @include flex-center-y;
+    justify-content: space-between;
+    padding-left: 18px;
+    & .logo {
+      @include flex-center-y;
+      width: 28px;
+      height: 28px;
+    }
+    & .name {
+      margin: 1px 0 0 8px;
+      font-size: 1rem;
+      & .link {
+        color: $color-secondary;
+      }
+    }
+  }
+}
+
+.hamburger-menu {
+  position: fixed;
+  top: 0;
+  right: 8px;
+  width: 40px;
+  height: 40px;
+  padding: 0.3rem;
+  cursor: pointer;
+  & .bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 200;
+    width: 70%;
+    height: 4px;
+    border-radius: 25px;
+    background: $color-secondary;
+    transform: translate(-50%, -50%);
+    transition: transform 0.6s, opacity 0.8s, top 0.6s;
+  }
+  & .barTop {
+    top: 25%;
+  }
+  & .barBottom {
+    top: 75%;
+  }
+  &.active .barTop {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-315deg);
+  }
+  &.active .barMid {
+    opacity: 0;
+  }
+  &.active .barBottom {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-225deg);
+  }
+  &.active #mobile-nav {
+    display: block;
+  }
+}

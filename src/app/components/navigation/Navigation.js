@@ -2,6 +2,7 @@
 import { useState } from "react";
 import NavList from "@/app/components/navigation/NavList";
 import MobileNav from "@/app/components/navigation/MobileNav";
+import styles from "./Navigation.module.scss";
 
 export default function Navigation(props) {
   const [showMobileNav, setShowMobileNav] = useState(false);
