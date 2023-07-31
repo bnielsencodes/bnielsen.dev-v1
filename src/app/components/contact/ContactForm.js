@@ -32,6 +32,7 @@ export default function ContactForm() {
           aria-label="Enter your name"
           required
         />
+        <ValidationError prefix="Name" field="name" errors={state.errors} />
         <input
           className={`${styles["input"]} ${styles["input--email"]}`}
           type="email"
@@ -40,6 +41,7 @@ export default function ContactForm() {
           aria-label="Enter your email address"
           required
         />
+        <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea
           className={`${styles["input"]} ${styles["input--message"]}`}
           name="message"
@@ -48,9 +50,15 @@ export default function ContactForm() {
           required
           rows="7"
         />
+        <ValidationError
+          prefix="Message"
+          field="message"
+          errors={state.errors}
+        />
       </fieldset>
 
       <div className={styles.submit}>
+        <ValidationError className={styles.error} errors={state.errors} />
         <button
           className={styles["submit-btn"]}
           type="submit"
