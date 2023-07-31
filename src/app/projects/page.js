@@ -1,6 +1,12 @@
+import { projects } from "../../data";
 import Navigation from "@/app/components/navigation/Navigation";
 import ContactSection from "@/app/components/contact/ContactSection";
 import FooterSection from "@/app/components/footer/FooterSection";
+
+const projectsList = projects.map((project) => {
+  return <Project key={project.id} project={project} />;
+});
+
 export default function Projects() {
   return (
     <>
