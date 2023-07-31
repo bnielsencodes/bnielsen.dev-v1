@@ -73,3 +73,18 @@
     display: block;
   }
 }
+
+@include breakpoint(tablet) {
+  .nav {
+    .container {
+      padding-left: 34px;
+      & .name {
+        font-size: 1.15rem;
+        // get the following to work on projects page
+        // &--projects-page {
+        //   padding-left: 28px;
+        // }
+      }
+    }
+  }
+}
