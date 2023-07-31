@@ -1,4 +1,8 @@
+"use client";
+import { useState } from "react";
 export default function ClipboardCopy() {
+  const [isCopied, setIsCopied] = useState(false);
+
   return (
     <>
       <button
