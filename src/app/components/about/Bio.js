@@ -1,6 +1,19 @@
+"use client";
+import { motion } from "framer-motion";
+
 export default function Bio() {
   return (
     <>
+      <motion.div
+        className={styles.motion}
+        initial={{ opacity: 0, translateX: "-20rem" }}
+        whileInView={{ opacity: 1, translateX: "0" }}
+        transition={{
+          duration: 1.4,
+          ease: [0.21, 1.11, 0.81, 0.99],
+        }}
+        viewport={{ once: true }}
+      >
         <article className={styles.bio}>
           <div className={styles.imgContainer}>
             <div className={styles.imgBorderContainer}>
@@ -39,6 +52,7 @@ export default function Bio() {
             View My Resume
           </a>
         </article>
+      </motion.div>
     </>
   );
 }
