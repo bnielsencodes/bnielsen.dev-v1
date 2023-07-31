@@ -1,5 +1,7 @@
 "use client";
 import { useState } from "react";
+import NavList from "@/app/components/navigation/NavList";
+
 export default function Navigation(props) {
   const [showMobileNav, setShowMobileNav] = useState(false);
 
@@ -31,6 +33,12 @@ export default function Navigation(props) {
             </a>
           </h1>
         </div>
+        <NavList
+          homePath={props.homePath}
+          aboutPath={props.aboutPath}
+          projectsPath={props.projectsPath}
+          contactPath={props.contactPath}
+        />
       </nav>
     </>
   );
