@@ -30,3 +30,16 @@
     margin-inline: auto;
   }
 }
+
+@include breakpoint(desktop) {
+  #projects-section {
+    & .heading {
+      font-size: 2.5rem;
+      & .span {
+        &::after {
+          width: 145px;
+        }
+      }
+    }
+  }
+}
