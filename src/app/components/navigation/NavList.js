@@ -1,3 +1,5 @@
+import styles from "./NavList.module.scss";
+
 export default function NavList(props) {
   return (
     <>
