@@ -23,3 +23,12 @@
     }
   }
 }
+
+@include breakpoint(tablet) {
+  .buttons {
+    & .liveSite,
+    & .sourceCode {
+      width: 113px;
+    }
+  }
+}
