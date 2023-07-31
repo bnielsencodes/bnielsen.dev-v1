@@ -128,3 +128,14 @@
     }
   }
 }
+
+@include breakpoint(desktop) {
+  .form {
+    & .heading {
+      font-size: 1.5rem;
+    }
+    & .text {
+      font-size: 0.925rem;
+    }
+  }
+}
