@@ -2,6 +2,7 @@
 import { useForm, ValidationError } from "@formspree/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/sharp-solid-svg-icons";
+import styles from "./ContactForm.module.scss";
 
 export default function ContactForm() {
   const [state, handleSubmit] = useForm("mknewaqj");
