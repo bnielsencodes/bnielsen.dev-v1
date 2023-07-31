@@ -32,3 +32,24 @@
     padding-bottom: 115px;
   }
 }
+
+@include breakpoint(tablet) {
+  .projects {
+    & .heading {
+      font-size: 2.45rem;
+      & .span {
+        &::after {
+          width: 140px;
+          left: 24px;
+        }
+      }
+    }
+    & .list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 20px;
+      grid-row-gap: 50px;
+      padding: 0 28px 115px;
+    }
+  }
+}
