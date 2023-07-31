@@ -1,3 +1,5 @@
+import styles from "./FooterSection.module.scss";
+
 export default function FooterSection(props) {
   return (
     <>

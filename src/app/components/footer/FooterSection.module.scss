@@ -1,0 +1,21 @@
+@import "../../../styles/variables.module.scss",
+  "../../../styles/mixins.module.scss";
+
+#footer-section {
+  position: relative;
+  @include flex-center-x;
+  height: 135px;
+  padding-top: 25px;
+  background: $color-neutral-200;
+  font-size: 0.75rem;
+  text-align: center;
+  & .container {
+    min-width: 211px;
+    margin-top: 24px;
+    & .signature {
+      margin-top: 18px;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+    }
+  }
+}
