@@ -2,6 +2,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapPin } from "@fortawesome/pro-duotone-svg-icons";
 import { motion } from "framer-motion";
+import styles from "./Bio.module.scss";
 
 export default function Bio() {
   return (

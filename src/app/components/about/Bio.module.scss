@@ -1,0 +1,149 @@
+@import "../../../styles/variables.module.scss",
+  "../../../styles/mixins.module.scss";
+
+.motion {
+  margin: 0 auto auto;
+}
+
+.bio {
+  @include flex-col-center-x;
+  min-width: 300px;
+  max-width: 340px;
+  height: 400px;
+  margin-bottom: 110px;
+  text-align: center;
+  & .imgContainer {
+    position: relative;
+    width: 205px;
+    & .imgBorderContainer {
+      position: absolute;
+      top: -3px;
+      left: 0;
+      & .imgBorderOuter {
+        width: 332px;
+        height: 166px;
+        margin: 0 0 0 -64px;
+        overflow: hidden;
+        visibility: hidden;
+        @include vendor-prefixs(transform, rotate(120deg));
+        & .imgBorderInner {
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+          @include vendor-prefixs(transform, rotate(-60deg));
+          & .imgBorderInner2 {
+            width: 100%;
+            height: 100%;
+            background: $color-secondary;
+            visibility: visible;
+            @include vendor-prefixs(transform, rotate(-60deg));
+          }
+        }
+      }
+    }
+    & .bioHex {
+      width: 320px;
+      height: 160px;
+      margin: 0 0 0 -58px;
+      overflow: hidden;
+      visibility: hidden;
+      @include vendor-prefixs(transform, rotate(120deg));
+      & .inner1 {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        @include vendor-prefixs(transform, rotate(-60deg));
+        & .inner2 {
+          width: 100%;
+          height: 100%;
+          background: url("/images/avatar.jpeg") 50%/184px no-repeat;
+          visibility: visible;
+          @include vendor-prefixs(transform, rotate(-60deg));
+        }
+      }
+    }
+  }
+  & .locationContainer {
+    width: 204px;
+    margin: 17px auto 10px;
+    text-align: center;
+    & .inner {
+      @include flex-center;
+      width: 165px;
+      & .icon {
+        position: relative;
+        z-index: 1;
+        @include flex-center-y;
+        width: 40px;
+        height: 40px;
+        &::after {
+          @include pseudo;
+          z-index: -1;
+          top: 8px;
+          left: 12px;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          background: $color-secondary;
+          opacity: 0.8;
+        }
+        & .fa-map-pin {
+          width: 35px;
+          height: 35px;
+          padding-top: 5px;
+          margin-inline: auto;
+          --fa-primary-color: #785af0;
+          --fa-secondary-color: #2cb67d;
+        }
+      }
+      & .location {
+        margin: 0;
+        border-bottom: 4px solid $color-primary;
+        font-size: 1.4rem;
+        &::selection,
+        &::-moz-selection {
+          background: $color-secondary;
+          color: $color-neutral-100;
+        }
+      }
+    }
+  }
+  & .text {
+    padding: 0 10px;
+    margin-bottom: 30px;
+    letter-spacing: 0.3px;
+  }
+  & .resume {
+    position: relative;
+    z-index: 1;
+    padding: 9px 5px 5px;
+    border-bottom: 3px solid $color-primary;
+    color: $color-neutral-300;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    &::after {
+      @include pseudo;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      background: $color-primary;
+      transform: scaleY(0);
+      transform-origin: bottom center;
+      transition: transform 0.3s;
+    }
+    &:hover {
+      color: #000;
+      font-size: 0.65rem;
+      letter-spacing: 1.75px;
+    }
+    &:hover::after {
+      transform: scaleY(1);
+    }
+    &:focus {
+      outline: 2px solid $color-secondary;
+    }
+  }
+}
