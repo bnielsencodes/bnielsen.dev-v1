@@ -34,3 +34,31 @@
   justify-content: center;
 }
 
+// PSEUDO, BEFORE AND AFTER ---------------
+@mixin pseudo($content: "", $pos: absolute) {
+  content: $content;
+  position: $pos;
+}
+
+// ADD VENDOR PREFIXES TO ANY CSS PROPERTY -------------
+@mixin vendor-prefixs($prop, $value) {
+  -webkit-#{$prop}: #{$value};
+  -moz-#{$prop}: #{$value};
+  -ms-#{$prop}: #{$value};
+  -o-#{$prop}: #{$value};
+  #{$prop}: #{$value};
+}
+
+// KEYFRAME ANIMATIONS --------------------
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
