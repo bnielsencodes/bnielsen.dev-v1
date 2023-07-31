@@ -39,6 +39,18 @@ export default function Navigation(props) {
           projectsPath={props.projectsPath}
           contactPath={props.contactPath}
         />
+        <div
+          className={`${styles["hamburger-menu"]} hidden--md ${
+            showMobileNav ? styles.active : null
+          }`}
+          onClick={() => {
+            setShowMobileNav((prevState) => !prevState);
+          }}
+        >
+          <div className={`${styles.bar} ${styles.barTop}`}></div>
+          <div className={`${styles.bar} ${styles.barMid}`}></div>
+          <div className={`${styles.bar} ${styles.barBottom}`}></div>
+        </div>
       </nav>
     </>
   );
