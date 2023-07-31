@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/sharp-solid-svg-icons";
+import styles from "./HeaderCTABtn.module.scss";
 
 export default function HeaderCTABtn() {
   return (
