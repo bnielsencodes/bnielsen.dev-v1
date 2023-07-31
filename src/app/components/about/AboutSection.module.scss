@@ -50,3 +50,24 @@
     }
   }
 }
+
+@include breakpoint(desktop) {
+  .about-section {
+    & .heading {
+      font-size: 2.5rem;
+      & .span {
+        &::after {
+          left: 25px;
+          width: 105px;
+          height: 15px;
+        }
+      }
+    }
+  }
+
+  .container {
+    max-width: 1300px;
+    padding-bottom: 25px;
+    margin: 80px auto 0;
+  }
+}
