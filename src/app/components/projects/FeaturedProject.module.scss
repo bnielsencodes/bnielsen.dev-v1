@@ -56,3 +56,13 @@
     }
   }
 }
+
+@include breakpoint(desktop) {
+  .project {
+    & .container--bottom {
+      & .heading {
+        font-size: 2rem;
+      }
+    }
+  }
+}
