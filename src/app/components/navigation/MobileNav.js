@@ -1,3 +1,5 @@
+import styles from "./MobileNav.module.scss";
+
 export default function MobileNav(props) {
   if (!props.showMobileNav) {
     return null;
