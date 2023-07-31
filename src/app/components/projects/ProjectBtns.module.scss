@@ -32,3 +32,12 @@
     }
   }
 }
+
+@include breakpoint(desktop) {
+  .buttons {
+    & .liveSite,
+    & .sourceCode {
+      font-size: 1.09rem;
+    }
+  }
+}
