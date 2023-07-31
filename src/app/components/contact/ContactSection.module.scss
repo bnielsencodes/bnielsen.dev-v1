@@ -48,3 +48,23 @@
     }
   }
 }
+
+@include breakpoint(desktop) {
+  .project-page {
+    padding-top: 100px;
+  }
+
+  #contact-section {
+    .heading {
+      font-size: 2.5rem;
+      & .span {
+        font-size: 2.35rem;
+        &::after {
+          left: 36px;
+          width: 400px;
+          height: 15px;
+        }
+      }
+    }
+  }
+}
