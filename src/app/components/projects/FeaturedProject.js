@@ -1,3 +1,5 @@
+import styles from "./FeaturedProject.module.scss";
+
 export default function FeaturedProject(props) {
   return (
     <>
