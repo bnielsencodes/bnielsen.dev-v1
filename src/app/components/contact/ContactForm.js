@@ -49,6 +49,16 @@ export default function ContactForm() {
           rows="7"
         />
       </fieldset>
+
+      <div className={styles.submit}>
+        <button
+          className={styles["submit-btn"]}
+          type="submit"
+          disabled={state.submitting}
+        >
+          Submit
+        </button>
+      </div>
     </form>
   );
 }
