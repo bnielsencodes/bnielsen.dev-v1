@@ -1,0 +1,20 @@
+@import "../../../styles/variables.module.scss",
+  "../../../styles/mixins.module.scss";
+
+.project-tech {
+  @include flex-center-y;
+  justify-content: space-between;
+  width: 215px;
+  & .icon-container {
+    @include flex-center-x;
+    @include flex-col-center-x;
+    width: 100%;
+    & .icon--tailwind {
+      margin-top: -3px;
+    }
+    & p {
+      font-size: 0.8rem;
+      letter-spacing: 0.35px;
+    }
+  }
+}

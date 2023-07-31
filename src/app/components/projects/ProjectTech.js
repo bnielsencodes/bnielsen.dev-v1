@@ -1,3 +1,5 @@
+import styles from "./ProjectTech.module.scss";
+
 export default function ProjectTech(props) {
   return (
     <>
