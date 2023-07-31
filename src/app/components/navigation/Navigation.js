@@ -1,4 +1,8 @@
+"use client";
+import { useState } from "react";
 export default function Navigation(props) {
+  const [showMobileNav, setShowMobileNav] = useState(false);
+
   return (
     <>
       <nav id="nav" className={styles.nav}>
