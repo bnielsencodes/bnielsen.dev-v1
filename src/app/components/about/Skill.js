@@ -1,9 +1,15 @@
+import Tooltip from "./Tooltip";
+
 export default function Skill(props) {
   return (
     <>
       <div
         className={styles.skill}
       >
+        <Tooltip
+          name={props.skill.name}
+          tech={props.skill.tech}
+        />
         <div
           className={`${styles.icon} ${styles[`icon--${props.skill.name}`]}`}
         >
