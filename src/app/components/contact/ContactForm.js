@@ -23,6 +23,32 @@ export default function ContactForm() {
         <br />
         or send me a quick message here:
       </div>
+      <fieldset className={styles.fieldset}>
+        <input
+          className={`${styles["input"]} ${styles["input--name"]}`}
+          type="name"
+          name="name"
+          placeholder="Name"
+          aria-label="Enter your name"
+          required
+        />
+        <input
+          className={`${styles["input"]} ${styles["input--email"]}`}
+          type="email"
+          name="email"
+          placeholder="Email"
+          aria-label="Enter your email address"
+          required
+        />
+        <textarea
+          className={`${styles["input"]} ${styles["input--message"]}`}
+          name="message"
+          placeholder="Message"
+          aria-label="Enter a message"
+          required
+          rows="7"
+        />
+      </fieldset>
     </form>
   );
 }
