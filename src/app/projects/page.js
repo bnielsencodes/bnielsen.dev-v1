@@ -3,6 +3,7 @@ import Navigation from "@/app/components/navigation/Navigation";
 import Project from "@/app/components/projects/Project";
 import ContactSection from "@/app/components/contact/ContactSection";
 import FooterSection from "@/app/components/footer/FooterSection";
+import styles from "./page.module.scss";
 
 const projectsList = projects.map((project) => {
   return <Project key={project.id} project={project} />;
