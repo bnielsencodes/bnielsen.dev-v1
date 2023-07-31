@@ -29,3 +29,24 @@
     font-size: 0.9rem;
   }
 }
+
+@include breakpoint(tablet) {
+  .about-section {
+    & .heading {
+      padding: 100px 0 30px;
+      & .span {
+        &::after {
+          left: 24px;
+          width: 100px;
+        }
+      }
+    }
+    & .container {
+      flex-direction: row;
+      justify-content: space-between;
+      min-width: 670px;
+      padding-bottom: 25px;
+      margin: 60px auto 0;
+    }
+  }
+}
