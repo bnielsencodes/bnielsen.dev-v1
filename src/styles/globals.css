@@ -1,1 +1,64 @@
+::selection,
+::-moz-selection {
+  background: #785af0;
+  color: #1a1a1a;
+}
 
+body {
+  color: #fafafa;
+  font: normal 16px/1.5 "Monteserrat", sans-serif;
+  /* HIDE SCROLLBAR BUT STILL ALLOW SCROLL (CHROME, SAFARI, OPERA) */
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  /* HIDE SCROLLBAR BUT STILL ALLOW SCROLL (FIREFOX) */
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+#hidden--sm {
+  display: none;
+}
+
+.hidden--sm {
+  display: none;
+}
+
+.skill-fa {
+  font-size: 2rem;
+}
+
+.skill-fa--sass {
+  font-size: 2.4rem;
+}
+
+.fa-arrow-right {
+  padding-left: 1px;
+  color: #785af0;
+  font-size: 0.85rem;
+}
+
+#top-divider,
+#bottom-divider {
+  position: relative;
+  min-height: 165px;
+  height: auto;
+  margin-top: -1px;
+  background: #fafafa;
+}
+
+#bottom-divider {
+  transform: rotate(180deg);
+}
+
+.divider {
+  position: absolute;
+  top: 0;
+}
