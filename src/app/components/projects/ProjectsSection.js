@@ -1,5 +1,6 @@
 import { projects } from "../../../data";
 import FeaturedProject from "@/app/components/projects/FeaturedProject";
+import styles from "./ProjectsSection.module.scss";
 
 const featuredProjects = projects.slice(0, 4).map((project) => {
   return <FeaturedProject key={project.id} project={project} />;

@@ -1,0 +1,32 @@
+@import "../../../styles/variables.module.scss",
+  "../../../styles/mixins.module.scss";
+
+#projects-section {
+  background: $color-neutral-300;
+  padding-bottom: 15px;
+  & .heading {
+    margin: 0 0 90px 0;
+    font-size: 2.35rem;
+    text-align: center;
+    & .span {
+      position: relative;
+      z-index: 1;
+      color: $color-neutral-100;
+      &::after {
+        @include pseudo;
+        z-index: -1;
+        bottom: -2px;
+        left: 25px;
+        width: 138px;
+        height: 14px;
+        background: $color-primary;
+      }
+    }
+  }
+  & .list {
+    @include flex-col-center-x;
+    justify-content: center;
+    max-width: 980px;
+    margin-inline: auto;
+  }
+}
