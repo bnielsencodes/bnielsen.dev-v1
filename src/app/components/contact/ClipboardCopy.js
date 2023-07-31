@@ -1,5 +1,7 @@
 "use client";
 import { useState } from "react";
+import styles from "./ClipboardCopy.module.scss";
+
 export default function ClipboardCopy() {
   const [isCopied, setIsCopied] = useState(false);
 

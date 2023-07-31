@@ -1,0 +1,27 @@
+@import "../../../styles/variables.module.scss";
+
+.btn {
+  padding: 0;
+  border: 0;
+  background: $color-neutral-100;
+  color: $color-secondary;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+
+.message {
+  position: absolute;
+  top: -10px;
+  right: -70px;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin-left: 1rem;
+  background: transparent;
+  color: $color-primary;
+  font-size: 13px;
+  font-weight: $font-medium;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
