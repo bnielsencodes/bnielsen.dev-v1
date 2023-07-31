@@ -9,6 +9,8 @@ export default function Projects() {
           projectsPath="#main"
           contactPath="#contact-section-anchor"
         />
+        {/* <!-- PAGE TOP DIVIDER --> */}
+        <div className={styles["top-divider"]}></div>
       </main>
     </>
   );
