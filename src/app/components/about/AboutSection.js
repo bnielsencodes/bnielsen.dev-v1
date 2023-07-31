@@ -1,3 +1,4 @@
+import Bio from "@/app/components/about/Bio";
 import styles from "./AboutSection.module.scss";
 
 export default function AboutSection() {
@@ -8,6 +9,7 @@ export default function AboutSection() {
           <span className={styles.span}>About</span>
         </h2>
         <div className={styles.container}>
+          <Bio />
         </div>
       </section>
     </>
