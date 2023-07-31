@@ -1,3 +1,5 @@
+import styles from "./Tooltip.module.scss";
+
 export default function Tooltip(props) {
   return (
     <>
