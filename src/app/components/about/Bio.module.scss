@@ -147,3 +147,16 @@
     }
   }
 }
+
+@include breakpoint(tablet) {
+  .bio {
+    margin: 15px 0 auto;
+    & .resume {
+      font-size: 0.65rem;
+      &:hover {
+        font-size: 0.7rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
