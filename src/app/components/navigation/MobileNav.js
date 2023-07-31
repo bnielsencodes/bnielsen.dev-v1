@@ -1,4 +1,8 @@
 export default function MobileNav(props) {
+  if (!props.showMobileNav) {
+    return null;
+  }
+
   return (
     <>
       <div className={`${styles["mobile-nav"]} `}>
