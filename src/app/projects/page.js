@@ -11,6 +11,7 @@ export default function Projects() {
         />
         {/* <!-- PAGE TOP DIVIDER --> */}
         <div className={styles["top-divider"]}></div>
+        <div id="contact-section-anchor"></div>
       </main>
     </>
   );
