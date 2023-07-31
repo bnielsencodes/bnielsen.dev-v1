@@ -1,5 +1,7 @@
 "use client";
 import { useForm, ValidationError } from "@formspree/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/sharp-solid-svg-icons";
 
 export default function ContactForm() {
   const [state, handleSubmit] = useForm("mknewaqj");
@@ -13,6 +15,7 @@ export default function ContactForm() {
       <h2 className={styles.heading}>Let&apos;s connect!</h2>
       <div className={styles.text}>
         Email me at{" "}
+        <FontAwesomeIcon className="fa-arrow-right" icon={faArrowRight} />{" "}
         <div className={styles["clipboard-copy"]}>
         </div>
         <strong>
