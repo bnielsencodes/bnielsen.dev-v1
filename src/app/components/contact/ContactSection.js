@@ -1,3 +1,4 @@
+import ContactForm from "@/app/components/contact/ContactForm";
 import styles from "./ContactSection.module.scss";
 
 export default function ContactSection(props) {
@@ -9,6 +10,7 @@ export default function ContactSection(props) {
       <h2 className={styles.heading}>
         <span className={styles.span}>Want to work together?</span>
       </h2>
+      <ContactForm />
     </section>
   );
 }
