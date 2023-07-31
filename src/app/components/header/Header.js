@@ -1,4 +1,5 @@
 import HeaderIntro from "@/app/components/header/HeaderIntro";
+import TsParticles from "@/app/components/header/TsParticles";
 
 export default function Header() {
   return (
@@ -7,6 +8,7 @@ export default function Header() {
         <div className={styles.container}>
           <HeaderIntro />
         </div>
+        <TsParticles />
       </header>
     </>
   );
