@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ProjectTech from "@/app/components/projects/ProjectTech";
 
 export default function Project(props) {
   return (
@@ -26,6 +27,7 @@ export default function Project(props) {
             <p className={`${styles.description} hidden--md`}>
               {props.project.description}
             </p>
+            <ProjectTech project={props.project} />
           </div>
         </div>
       </article>
