@@ -160,3 +160,16 @@
     }
   }
 }
+
+@include breakpoint(desktop) {
+  .bio {
+    padding: 0;
+    margin: 10px auto auto;
+    .resume {
+      font-size: 0.7rem;
+      &:hover {
+        font-size: 0.725rem;
+      }
+    }
+  }
+}
