@@ -1,3 +1,5 @@
+import styles from "./ProjectBtns.module.scss";
+
 export default function ProjectBtns(props) {
   return (
     <>

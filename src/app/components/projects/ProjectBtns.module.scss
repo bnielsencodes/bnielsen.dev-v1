@@ -1,0 +1,25 @@
+@import "../../../styles/variables.module.scss",
+  "../../../styles/mixins.module.scss";
+
+.buttons {
+  @include flex-center-x;
+  @include flex-center-y;
+  gap: 20px;
+  margin: 0 0 10px;
+  & .liveSite,
+  & .sourceCode {
+    width: 100px;
+    padding: 8px;
+    border: 3px solid $color-primary;
+    background: $color-neutral-200;
+    color: $color-neutral-300;
+    text-align: center;
+    &:hover {
+      color: $color-secondary;
+      transform: scale(1.025);
+    }
+    &:focus {
+      outline: 2px solid $color-secondary;
+    }
+  }
+}
