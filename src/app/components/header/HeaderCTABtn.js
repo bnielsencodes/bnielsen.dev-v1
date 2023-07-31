@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowDown } from "@fortawesome/sharp-solid-svg-icons";
+
 export default function HeaderCTABtn() {
   return (
     <>
@@ -5,6 +8,10 @@ export default function HeaderCTABtn() {
         <a className={styles.link} href="#top-divider" aria-label="view work">
           View my work
           <span className={styles.span}>
+            <FontAwesomeIcon
+              className={styles["fa-arrow-down"]}
+              icon={faArrowDown}
+            />
           </span>
         </a>
       </div>
