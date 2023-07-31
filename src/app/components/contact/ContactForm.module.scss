@@ -111,3 +111,20 @@
     }
   }
 }
+
+@include breakpoint(tablet) {
+  .form {
+    & .heading {
+      font-size: 1.275rem;
+    }
+    & .text {
+      font-size: 0.9rem;
+      & .clipboard-copy {
+        display: inline;
+      }
+      & .mailto {
+        display: none;
+      }
+    }
+  }
+}
