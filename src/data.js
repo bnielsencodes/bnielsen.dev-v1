@@ -179,4 +179,57 @@ const projects = [
   },
 ];
 
-export { projects };
+const skills = [
+  {
+    id: 1,
+    name: "react",
+    tech: "React",
+  },
+  {
+    id: 2,
+    name: "next",
+    tech: "Next.js",
+  },
+  {
+    id: 3,
+    name: "tailwind",
+    tech: "Tailwind",
+  },
+  {
+    id: 4,
+    name: "js",
+    tech: "JavaScript",
+  },
+  {
+    id: 5,
+    name: "vite",
+    tech: "Vite",
+  },
+  {
+    id: 6,
+    name: "sass",
+    tech: "Sass",
+  },
+  {
+    id: 7,
+    name: "figma",
+    tech: "Figma",
+  },
+  {
+    id: 8,
+    name: "html",
+    tech: "HTML",
+  },
+  {
+    id: 9,
+    name: "css",
+    tech: "CSS",
+  },
+  {
+    id: 10,
+    name: "git",
+    tech: "Git",
+  },
+];
+
+export { projects, skills };
