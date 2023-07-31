@@ -2,6 +2,7 @@
 import { useForm, ValidationError } from "@formspree/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/sharp-solid-svg-icons";
+import ClipboardCopy from "@/app/components/contact/ClipboardCopy";
 import styles from "./ContactForm.module.scss";
 
 export default function ContactForm() {
@@ -18,6 +19,7 @@ export default function ContactForm() {
         Email me at{" "}
         <FontAwesomeIcon className="fa-arrow-right" icon={faArrowRight} />{" "}
         <div className={styles["clipboard-copy"]}>
+          <ClipboardCopy />
         </div>
         <strong>
           <a className={styles["mailto"]} href="mailto:bnielsencodes@gmail.com">
