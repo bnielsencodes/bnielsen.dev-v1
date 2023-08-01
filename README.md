@@ -20,7 +20,7 @@
 
 ### Links
 
-- Solution URL: [https://github.com/bnielsencodes/bnielsencodes.github.io](https://github.com/bnielsencodes/bnielsencodes.github.io)
+- Solution URL: [https://github.com/bnielsencodes/bnielsencodes.github.io](https://github.com/bnielsencodes/bnielsen.dev)
 - Live Site URL: [https://bnielsen.dev](https://bnielsen.dev)
 
 ## My Process
