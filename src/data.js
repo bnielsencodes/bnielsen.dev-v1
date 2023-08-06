@@ -85,8 +85,7 @@ const projects = [
     name: "Splitter",
     video: "/videos/splitter.mp4",
     img: splitterImg,
-    description:
-      "An app built for the purpose of splitting bills/tips with others.",
+    description: "A web app that allows you to easily split bills/tips.",
     classes: ["icon--html", "icon--tailwind", "icon--js"],
     skillOne: "HTML",
     skillTwo: "Tailwind",
