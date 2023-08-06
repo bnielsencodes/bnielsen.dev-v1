@@ -4,7 +4,7 @@
 
 - [Overview](#overview)
   - [Screenshots](#screenshots)
-  - [Links](#links)
+  - [Link](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -22,11 +22,8 @@
 
 ![screenshot of bnielsen.dev projects page desktop website](/public/images/screenshots/desktop-projects-page.png)
 
+### Link
 
-
-### Links
-
-- Solution URL: [https://github.com/bnielsencodes/bnielsencodes.github.io](https://github.com/bnielsencodes/bnielsen.dev)
 - Live Site URL: [https://bnielsen.dev](https://bnielsen.dev)
 
 ## My Process
@@ -67,7 +64,7 @@
 
 ## Author
 
-- Website - [Brandon Nielsen](https://www.bnielsen.dev)
-- LinkedIn - [Brandon Nielsen](https://www.linkedin.com/in/bnielsencodes)
+- Portfolio Website - [bnielsen.dev](https://bnielsen.dev)
+- LinkedIn - [/in/bnielsencodes](https://linkedin.com/in/bnielsencodes)
 - Twitter - [@bnielsencodes](https://twitter.com/bnielsencodes)
 - Frontend Mentor - [@bnielsencodes](https://www.frontendmentor.io/profile/bnielsencodes)
