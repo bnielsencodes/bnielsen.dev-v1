@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -11,10 +12,15 @@
 
 ## Overview
 
+### Screenshots
 
+#### Desktop - Home Page
 
+![screenshot of bnielsen.dev desktop website](assets/images/screenshots/desktop.png)
 
+#### Desktop - Projects Page
 
+![screenshot of bnielsen.dev projects page desktop website](assets/images/screenshots/projects-desktop.png)
 
 
 
@@ -57,6 +63,7 @@
 - [How to Build a Tooltip Component w/ React](https://medium.com/@jsmuster/building-a-tooltip-component-with-react-2de14761e02)
 - [Implementing Copy-to-Clipboard in React with Clipboard API](https://blog.logrocket.com/implementing-copy-clipboard-react-clipboard-api/)
 - ["I am getting the error "The requested resource isn't a valid image.."](https://stackoverflow.com/questions/71617582/i-am-getting-the-error-the-requested-resource-isnt-a-valid-image-for-public-l)
+- [How to add favicon in Next.js 13](https://stackoverflow.com/questions/75674866/adding-favicon-to-nextjs-13-beta-no-pages-folder)
 
 ## Author
 
