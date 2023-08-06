@@ -15,7 +15,7 @@ export default function FeaturedProject(props) {
         }`}
       >
         <div className={styles.container}>
-          <video className={styles.video} width="100%" autoPlay muted loop>
+          <video className={styles.video} width="100" autoPlay muted loop>
             <source src={props.project.video} type="video/mp4" />
           </video>
           <div className={styles["container--bottom"]}>

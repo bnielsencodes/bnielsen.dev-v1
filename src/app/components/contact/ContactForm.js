@@ -32,7 +32,7 @@ export default function ContactForm() {
       <fieldset className={styles.fieldset}>
         <input
           className={`${styles["input"]} ${styles["input--name"]}`}
-          type="name"
+          type="text"
           name="name"
           placeholder="Name"
           aria-label="Enter your name"
