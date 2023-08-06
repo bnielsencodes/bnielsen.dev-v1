@@ -24,8 +24,7 @@
     }
   }
   & .list {
-    @include flex-col-center-x;
-    justify-content: center;
+    @include flex-col-center-xy;
     max-width: 980px;
     margin-inline: auto;
   }

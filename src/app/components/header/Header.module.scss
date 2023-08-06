@@ -2,7 +2,7 @@
   "../../../styles/mixins.module.scss";
 
 .header {
-  @include flex-center;
+  @include flex-center-xy;
   height: 100vh;
   text-align: center;
   & .container {

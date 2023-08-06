@@ -68,7 +68,7 @@
     margin: 17px auto 10px;
     text-align: center;
     & .inner {
-      @include flex-center;
+      @include flex-center-xy;
       width: 165px;
       & .icon {
         position: relative;

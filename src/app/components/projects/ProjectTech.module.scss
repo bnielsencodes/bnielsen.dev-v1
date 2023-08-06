@@ -2,11 +2,9 @@
   "../../../styles/mixins.module.scss";
 
 .project-tech {
-  @include flex-center-y;
-  justify-content: space-between;
+  @include flex-center-xy;
   width: 215px;
   & .icon-container {
-    @include flex-center-x;
     @include flex-col-center-x;
     width: 100%;
     & .icon--tailwind {

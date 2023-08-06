@@ -10,8 +10,8 @@
   text-align: center;
   box-shadow: 4px 4px 10px 0px rgb(0 0 0 / 0.35);
   & .btn {
-    display: inline-block;
     position: relative;
+    display: inline-block;
     padding: 0 24px 0 8px;
     color: $color-secondary;
     font-size: 1.3rem;
@@ -19,8 +19,8 @@
     &::after {
       content: url("/images/arrow-right-sharp-regular.svg");
       position: absolute;
-      right: 10px;
       top: 3px;
+      right: 10px;
       left: 193px;
       width: 17px;
       transition: 0.5s;

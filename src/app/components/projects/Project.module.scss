@@ -2,10 +2,7 @@
   "../../../styles/mixins.module.scss";
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  @include flex-col-center-xy;
   min-width: 325px;
   max-width: calc(100vw - 60px);
   border: 5px solid #1a1a1a;
@@ -20,16 +17,12 @@
     }
   }
   & .container--bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include flex-col-center-xy;
     width: 100%;
     padding-top: 5px;
     background: #1a1a1a;
     & .heading {
-      display: flex;
-      justify-content: center;
+      @include flex-center-x;
       width: 100%;
       margin: 0 auto;
       background: #1a1a1a;

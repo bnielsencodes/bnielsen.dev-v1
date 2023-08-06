@@ -13,7 +13,7 @@
 
 // align-center
 // justify-center
-@mixin flex-center {
+@mixin flex-center-xy {
   @include flex-center-y;
   justify-content: center;
 }
@@ -31,6 +31,13 @@
 @mixin flex-col-center-y {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+// column
+// align-center & justify-center
+@mixin flex-col-center-xy {
+  @include flex-col-center-x;
   justify-content: center;
 }
 
