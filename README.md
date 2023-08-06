@@ -16,11 +16,11 @@
 
 #### Desktop - Home Page
 
-![screenshot of bnielsen.dev desktop website](assets/images/screenshots/desktop.png)
+![screenshot of bnielsen.dev desktop website](/public/images/screenshots/desktop.png)
 
 #### Desktop - Projects Page
 
-![screenshot of bnielsen.dev projects page desktop website](assets/images/screenshots/projects-desktop.png)
+![screenshot of bnielsen.dev projects page desktop website](/public/images/screenshots/desktop-projects-page.png)
 
 
 
