@@ -1,7 +1,7 @@
 @import "../../../styles/variables.module.scss",
   "../../../styles/mixins.module.scss";
 
-#tooltip {
+.tooltip {
   position: absolute;
   z-index: 1;
   font-size: 12px;
@@ -16,47 +16,45 @@
   word-break: normal;
   word-spacing: normal;
   word-wrap: normal;
-  &.tooltip {
-    &--css {
-      top: -27px;
-      left: 7px;
-    }
-    &--figma {
-      top: -26px;
-      left: 4px;
-    }
-    &--git {
-      top: -27px;
-      left: 12px;
-    }
-    &--html {
-      top: -26px;
-      left: 3px;
-    }
-    &--js {
-      top: -24px;
-      left: -9px;
-    }
-    &--next {
-      top: -27px;
-      left: 2px;
-    }
-    &--react {
-      top: -22px;
-      left: 4px;
-    }
-    &--sass {
-      top: -20px;
-      left: 7px;
-    }
-    &--tailwind {
-      top: -18px;
-      left: 0;
-    }
-    &--vite {
-      top: -22px;
-      left: 10px;
-    }
+  &--css {
+    top: -27px;
+    left: 7px;
+  }
+  &--figma {
+    top: -26px;
+    left: 4px;
+  }
+  &--git {
+    top: -27px;
+    left: 12px;
+  }
+  &--html {
+    top: -26px;
+    left: 3px;
+  }
+  &--js {
+    top: -24px;
+    left: -9px;
+  }
+  &--next {
+    top: -27px;
+    left: 2px;
+  }
+  &--react {
+    top: -22px;
+    left: 4px;
+  }
+  &--sass {
+    top: -20px;
+    left: 7px;
+  }
+  &--tailwind {
+    top: -18px;
+    left: 0;
+  }
+  &--vite {
+    top: -22px;
+    left: 10px;
   }
   & .arrow {
     position: absolute;
