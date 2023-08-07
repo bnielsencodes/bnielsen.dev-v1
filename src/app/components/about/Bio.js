@@ -57,14 +57,14 @@ export default function Bio() {
           </p>
           <p className={styles.text}>
             With a firm belief in the power of innovation and continuous
-            improvement, I take on every project as an opportunity to
+            improvement, I take on every project as an opportunity to push
             {reveal ? (
               <span>
                 {" "}
-                push boundaries and exceed expectations. By keeping myself
-                updated with the latest industry trends and emerging
-                technologies, I ensure that my work remains at the forefront of
-                the ever-evolving web development landscape.
+                boundaries and exceed expectations. By keeping myself updated
+                with the latest industry trends and emerging technologies, I
+                ensure that my work remains at the forefront of the
+                ever-evolving web development landscape.
               </span>
             ) : (
               <span>...</span>

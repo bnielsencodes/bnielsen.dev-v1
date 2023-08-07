@@ -120,7 +120,7 @@
   & .readMoreBtn {
     position: absolute;
     bottom: 178px;
-    right: 49px;
+    right: 16px;
     height: 16px;
     border: 0;
     background: #272727;
@@ -173,14 +173,14 @@
     }
     & .readMoreBtn {
       bottom: 67px;
-      right: 52px;
+      right: 17px;
     }
   }
 }
 
 @include breakpoint(desktop) {
   .bio {
-    max-width: 511px;
+    max-width: 440px;
     padding: 0;
     margin: 10px auto auto;
     .resume {
@@ -190,8 +190,8 @@
       }
     }
     & .readMoreBtn {
-      bottom: 67.5px;
-      right: 119px;
+      bottom: 68px;
+      left: 59px;
       &:hover {
         opacity: 0.85;
         cursor: pointer;
