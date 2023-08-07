@@ -44,12 +44,33 @@ export default function Bio() {
             </div>
           </div>
           <p className={styles.text}>
-            Brandon Nielsen is an expert web developer, combining an impressive
-            range of technical acumen and creative flair. His background
-            involves working directly with people, inspiring him to always
-            create the best user experiences. With his analytical and creative
-            expertise, he is the perfect choice for any project.
+            My journey in the world of web development has equipped me with a
+            unique set of skills, enabling me to combine analytical thinking
+            with a keen eye for aesthetics. Whether it&apos;s designing an
+            intuitive user interface, optimizing website performance, or
+            tackling complex coding challenges, I always strive for excellence.
           </p>
+          <p className={styles.text}>
+            With a firm belief in the power of innovation and continuous
+            improvement, I take on every project as an opportunity to
+                push boundaries and exceed expectations. By keeping myself
+                updated with the latest industry trends and emerging
+                technologies, I ensure that my work remains at the forefront of
+                the ever-evolving web development landscape.
+          </p>
+              <p className={styles.text}>
+                From conceptualization to implementation, I invest myself
+                wholeheartedly in each project, driven by the desire to provide
+                the best user experience. By combining my technical expertise
+                with an artistic touch, I aim to leave a lasting impression on
+                every website I create.
+              </p>
+              <p className={styles.text}>
+                In a constantly changing digital world, I am excited to embrace
+                new challenges, learn from experiences, and continue growing as
+                a web developer. Through my work, I hope to inspire and elevate
+                online experiences for users across the globe.
+              </p>
           <a
             className={styles.resume}
             href="https://drive.google.com/file/d/1pJRoHl7UbfoqWO87wGbVoFV1ib-B3G5C/view?usp=sharing"
