@@ -1,10 +1,13 @@
 "use client";
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapPin } from "@fortawesome/pro-duotone-svg-icons";
 import { motion } from "framer-motion";
 import styles from "./Bio.module.scss";
 
 export default function Bio() {
+  const [reveal, setReveal] = useState(false);
+
   return (
     <>
       <motion.div
