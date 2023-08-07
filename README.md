@@ -33,7 +33,7 @@
 - [Next.js](https://nextjs.org/) - React framework
 - [React](https://reactjs.org/) - JS library
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [SASS](https://sass-lang.com/)
+- [SASS](https://sass-lang.com/) - CSS preprocessor
 - [CSS Modules](https://github.com/css-modules/css-modules)
 - [CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 - [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
@@ -41,7 +41,7 @@
 - [CSS Animations](https://www.w3schools.com/css/css3_animations.asp)
 - [Semantic HTML5 markup](https://www.w3schools.com/html/html5_semantic_elements.asp)
 - [Mobile-first workflow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
-- [FormSpree React](https://help.formspree.io/hc/en-us/articles/360055613373-The-Formspree-React-library)
+- [FormSpree React](https://help.formspree.io/hc/en-us/articles/360055613373-The-Formspree-React-library) - form backend, API and email service
 - [VS Code](https://code.visualstudio.com/) - Integrated development environment
 
 ### Useful Resources
