@@ -9,9 +9,12 @@
   @include flex-col-center-x;
   min-width: 300px;
   max-width: 340px;
-  height: 400px;
+  // height: 400px;
   margin-bottom: 110px;
-  text-align: center;
+  text-align: left;
+  &.marginBottom {
+    margin-bottom: 80px;
+  }
   & .imgContainer {
     position: relative;
     width: 205px;
@@ -65,7 +68,7 @@
   }
   & .locationContainer {
     width: 204px;
-    margin: 17px auto 10px;
+    margin: 17px auto 24.4px;
     text-align: center;
     & .inner {
       @include flex-center-xy;
@@ -110,8 +113,18 @@
   }
   & .text {
     padding: 0 10px;
+    margin-top: 0;
     margin-bottom: 30px;
     letter-spacing: 0.3px;
+  }
+  & .readMoreBtn {
+    position: absolute;
+    bottom: 178px;
+    right: 49px;
+    height: 16px;
+    border: 0;
+    background: #272727;
+    color: $color-secondary;
   }
   & .resume {
     position: relative;
@@ -158,17 +171,30 @@
         font-weight: 500;
       }
     }
+    & .readMoreBtn {
+      bottom: 67px;
+      right: 52px;
+    }
   }
 }
 
 @include breakpoint(desktop) {
   .bio {
+    max-width: 511px;
     padding: 0;
     margin: 10px auto auto;
     .resume {
       font-size: 0.7rem;
       &:hover {
         font-size: 0.725rem;
+      }
+    }
+    & .readMoreBtn {
+      bottom: 67.5px;
+      right: 119px;
+      &:hover {
+        opacity: 0.85;
+        cursor: pointer;
       }
     }
   }

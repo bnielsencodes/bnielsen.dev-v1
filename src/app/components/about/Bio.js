@@ -20,7 +20,9 @@ export default function Bio() {
         }}
         viewport={{ once: true }}
       >
-        <article className={styles.bio}>
+        <article
+          className={`${styles.bio} ${reveal ? styles.marginBottom : null}`}
+        >
           <div className={styles.imgContainer}>
             <div className={styles.imgBorderContainer}>
               <div className={styles.imgBorderOuter}>
@@ -56,11 +58,20 @@ export default function Bio() {
           <p className={styles.text}>
             With a firm belief in the power of innovation and continuous
             improvement, I take on every project as an opportunity to
+            {reveal ? (
+              <span>
+                {" "}
                 push boundaries and exceed expectations. By keeping myself
                 updated with the latest industry trends and emerging
                 technologies, I ensure that my work remains at the forefront of
                 the ever-evolving web development landscape.
+              </span>
+            ) : (
+              <span>...</span>
+            )}
           </p>
+          {reveal && (
+            <>
               <p className={styles.text}>
                 From conceptualization to implementation, I invest myself
                 wholeheartedly in each project, driven by the desire to provide
@@ -74,6 +85,9 @@ export default function Bio() {
                 a web developer. Through my work, I hope to inspire and elevate
                 online experiences for users across the globe.
               </p>
+            </>
+          )}
+
           {!reveal && (
             <button
               className={styles.readMoreBtn}
@@ -84,6 +98,7 @@ export default function Bio() {
               Read more
             </button>
           )}
+
           <a
             className={styles.resume}
             href="https://drive.google.com/file/d/1pJRoHl7UbfoqWO87wGbVoFV1ib-B3G5C/view?usp=sharing"
