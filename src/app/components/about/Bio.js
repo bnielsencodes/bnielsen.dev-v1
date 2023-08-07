@@ -74,6 +74,16 @@ export default function Bio() {
                 a web developer. Through my work, I hope to inspire and elevate
                 online experiences for users across the globe.
               </p>
+          {!reveal && (
+            <button
+              className={styles.readMoreBtn}
+              onClick={() => {
+                setReveal((prevState) => !prevState);
+              }}
+            >
+              Read more
+            </button>
+          )}
           <a
             className={styles.resume}
             href="https://drive.google.com/file/d/1pJRoHl7UbfoqWO87wGbVoFV1ib-B3G5C/view?usp=sharing"
