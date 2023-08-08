@@ -67,7 +67,17 @@ export default function Bio() {
                 ever-evolving web development landscape.
               </span>
             ) : (
-              <span>...</span>
+              <>
+                <span>... {""}</span>
+                <button
+                  className={styles.readMoreBtn}
+                  onClick={() => {
+                    setReveal((prevState) => !prevState);
+                  }}
+                >
+                  Read more
+                </button>
+              </>
             )}
           </p>
           {reveal && (
@@ -86,17 +96,6 @@ export default function Bio() {
                 online experiences for users across the globe.
               </p>
             </>
-          )}
-
-          {!reveal && (
-            <button
-              className={styles.readMoreBtn}
-              onClick={() => {
-                setReveal((prevState) => !prevState);
-              }}
-            >
-              Read more
-            </button>
           )}
 
           <a

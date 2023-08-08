@@ -118,9 +118,6 @@
     letter-spacing: 0.3px;
   }
   & .readMoreBtn {
-    position: absolute;
-    bottom: 178px;
-    right: 16px;
     height: 16px;
     border: 0;
     background: #272727;
@@ -171,10 +168,6 @@
         font-weight: 500;
       }
     }
-    & .readMoreBtn {
-      bottom: 67px;
-      right: 17px;
-    }
   }
 }
 
@@ -189,13 +182,9 @@
         font-size: 0.725rem;
       }
     }
-    & .readMoreBtn {
-      bottom: 68px;
-      left: 59px;
-      &:hover {
-        opacity: 0.85;
-        cursor: pointer;
-      }
+    & .readMoreBtn:hover {
+      opacity: 0.85;
+      cursor: pointer;
     }
   }
 }
