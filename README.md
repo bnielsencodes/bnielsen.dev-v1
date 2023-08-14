@@ -61,6 +61,7 @@
 - [Implementing Copy-to-Clipboard in React with Clipboard API](https://blog.logrocket.com/implementing-copy-clipboard-react-clipboard-api/)
 - ["I am getting the error "The requested resource isn't a valid image.."](https://stackoverflow.com/questions/71617582/i-am-getting-the-error-the-requested-resource-isnt-a-valid-image-for-public-l)
 - [How to add favicon in Next.js 13](https://stackoverflow.com/questions/75674866/adding-favicon-to-nextjs-13-beta-no-pages-folder)
+- [Fix overflow-x issue when animating element from off-screen with Framer Motion](https://stackoverflow.com/questions/47095596/body-overflow-x-hidden-breaks-position-sticky)
 
 ## Author
 
