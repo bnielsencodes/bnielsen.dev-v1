@@ -21,10 +21,10 @@ export default function Skills() {
     <>
       <motion.div
         className={styles.motion}
-        initial={{ opacity: 0, translateX: "-15rem" }}
+        initial={{ opacity: 0, translateX: "19rem" }}
         whileInView={{ opacity: 1, translateX: "0" }}
         transition={{
-          duration: 1.4,
+          duration: 1.8,
           ease: [0.21, 1.11, 0.81, 0.99],
         }}
         viewport={{ once: true }}
