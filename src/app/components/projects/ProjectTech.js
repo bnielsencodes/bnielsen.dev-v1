@@ -38,7 +38,6 @@ export default function ProjectTech(props) {
               </g>
             </svg>
           )}
-          <p>{props.project.skillOne}</p>
         </div>
         <div className={styles["icon-container"]}>
           {props.project.skillTwo === "CSS" && (
@@ -103,7 +102,6 @@ export default function ProjectTech(props) {
               />
             </svg>
           )}
-          <p>{props.project.skillTwo}</p>
         </div>
         <div className={styles["icon-container"]}>
           {props.project.skillThree === "CSS" && (
@@ -146,7 +144,6 @@ export default function ProjectTech(props) {
               ></path>
             </svg>
           )}
-          <p>{props.project.skillThree}</p>
         </div>
       </div>
     </>

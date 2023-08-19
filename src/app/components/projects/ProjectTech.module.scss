@@ -4,6 +4,7 @@
 .project-tech {
   @include flex-center-xy;
   width: 215px;
+  margin-bottom: 20px;
   & .icon-container {
     @include flex-col-center-x;
     width: 100%;
