@@ -1,19 +1,19 @@
 import audiophileFeaturedImg from "/public/images/projects/featuredAudiophile.webp";
-import audiophileImg from "/public/images/projects/audiophile.png";
+import audiophileImg from "/public/images/projects/audiophile.webp";
 import securePassFeaturedImg from "/public/images/projects/featuredSecurepass.webp";
 import securePassImg from "/public/images/projects/securepass.png";
 import quizzicalFeaturedImg from "/public/images/projects/featuredQuizzical.webp";
 import quizzicalImg from "/public/images/projects/quizzical.png";
 import dictionaryFeaturedImg from "/public/images/projects/featuredDictionary.webp";
-import dictionaryImg from "/public/images/projects/dictionary-web-app.png";
+import dictionaryImg from "/public/images/projects/dictionary-web-app.webp";
 import tenziesImg from "/public/images/projects/tenzies.png";
 import splitterImg from "/public/images/projects/splitter.png";
 import planetFactsImg from "/public/images/projects/planet-facts.png";
-import memeGeneratorImg from "/public/images/projects/meme-generator.png";
+import memeGeneratorImg from "/public/images/projects/meme-generator.webp";
 import notificationsPageImg from "/public/images/projects/notifications-page.png";
 import huddleImg from "/public/images/projects/huddle.png";
-import fruitOfTheSeaImg from "/public/images/projects/fruit-of-the-sea.png";
-import employeeDirectoryImg from "/public/images/projects/employee-directory.png";
+import fruitOfTheSeaImg from "/public/images/projects/fruit-of-the-sea.webp";
+import employeeDirectoryImg from "/public/images/projects/employee-directory.webp";
 
 // eslint-disable-next-line
 const projects = [
