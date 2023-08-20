@@ -1,6 +1,10 @@
+import audiophileFeaturedImg from "/public/images/projects/featuredAudiophile.webp";
 import audiophileImg from "/public/images/projects/audiophile.png";
+import securePassFeaturedImg from "/public/images/projects/featuredSecurepass.webp";
 import securePassImg from "/public/images/projects/securepass.png";
+import quizzicalFeaturedImg from "/public/images/projects/featuredQuizzical.webp";
 import quizzicalImg from "/public/images/projects/quizzical.png";
+import dictionaryFeaturedImg from "/public/images/projects/featuredDictionary.webp";
 import dictionaryImg from "/public/images/projects/dictionary-web-app.png";
 import tenziesImg from "/public/images/projects/tenzies.png";
 import splitterImg from "/public/images/projects/splitter.png";
@@ -18,6 +22,7 @@ const projects = [
     name: "Audiophile",
     video: "/videos/audiophile.mp4",
     img: audiophileImg,
+    featuredImg: audiophileFeaturedImg,
     description:
       "An e-commerce website for a fictional company named Audiophile that is a one stop shop for all things audio.",
     classes: ["icon--nextjs", "icon--react", "icon--js"],
@@ -32,6 +37,7 @@ const projects = [
     name: "SecurePass",
     video: "/videos/securepass.mp4",
     img: securePassImg,
+    featuredImg: securePassFeaturedImg,
     description: "A strong random password generator.",
     classes: ["icon--html", "icon--tailwind", "icon--js"],
     skillOne: "HTML",
@@ -45,6 +51,7 @@ const projects = [
     name: "Quizzical",
     video: "/videos/quizzical.mp4",
     img: quizzicalImg,
+    featuredImg: quizzicalFeaturedImg,
     description: "A quiz app that gets data from The Open Trivia Database API.",
     classes: ["icon--react", "icon--js", "icon--css"],
     skillOne: "React",
@@ -58,6 +65,7 @@ const projects = [
     name: "Dictionary Web App",
     video: "/videos/dictionary-web-app.mp4",
     img: dictionaryImg,
+    featuredImg: dictionaryFeaturedImg,
     description:
       "A dictionary web app that pulls data from the Free Dictionary API.",
     classes: ["icon--react", "icon--js", "icon--css"],
