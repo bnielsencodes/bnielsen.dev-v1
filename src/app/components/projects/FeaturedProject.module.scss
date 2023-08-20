@@ -2,7 +2,7 @@
   "../../../styles/mixins.module.scss";
 
 .project {
-  max-width: 850px;
+  width: 325px;
   margin-bottom: 40px;
   .container {
     @include flex-col-center-x;
@@ -15,6 +15,16 @@
       @include flex-center-x;
       width: 100%;
       background: $color-neutral-100;
+    }
+    & .imgContainer {
+      height: 164px;
+      overflow-y: hidden;
+      & .img {
+        width: 100%;
+        height: auto;
+        background: $color-neutral-100;
+        transform: translateY(0%);
+      }
     }
     &--bottom {
       @include flex-col-center-x;
@@ -43,11 +53,11 @@
 
 @include breakpoint(tablet) {
   .project {
-    &--left {
-      margin: 0 auto 80px 40px;
-    }
-    &--right {
-      margin: 0 40px 80px auto;
+    width: 718px;
+    & .container {
+      & .imgContainer {
+        height: 368px;
+      }
     }
     & .container--bottom {
       & .heading {
@@ -59,9 +69,68 @@
 
 @include breakpoint(desktop) {
   .project {
+    width: 724px;
+    & .container {
+      & .imgContainer {
+        height: 371px;
+        & .img {
+          &--audiophile {
+            transition: transform 12s ease-in-out 0s;
+            &:hover {
+              transform: translateY(-80.9%);
+            }
+          }
+          &--quizzical {
+            transition: transform 2s ease-in-out 0s;
+            &:hover {
+              transform: translateY(-16.8%);
+            }
+          }
+          &--dictionary {
+            transition: transform 2s ease-in-out 0s;
+            &:hover {
+              transform: translateY(-18.3%);
+            }
+          }
+        }
+      }
+    }
     & .container--bottom {
       & .heading {
         font-size: 2rem;
+      }
+    }
+  }
+}
+
+@include breakpoint(large) {
+  .project {
+    & .container {
+      & .imgContainer {
+        height: 442px;
+        & .img {
+          &--audiophile {
+            transition: transform 12s ease-in-out 0s;
+            &:hover {
+              transform: translateY(-77.3%);
+            }
+          }
+          &--securepass {
+            height: 100%;
+          }
+          &--quizzical {
+            transition: transform 2s ease-in-out 0s;
+            &:hover {
+              transform: none;
+            }
+          }
+          &--dictionary {
+            transition: transform 2s ease-in-out 0s;
+            &:hover {
+              transform: translateY(-2.8%);
+            }
+          }
+        }
       }
     }
   }
