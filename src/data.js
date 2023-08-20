@@ -20,7 +20,6 @@ const projects = [
   {
     id: 1,
     name: "Audiophile",
-    video: "/videos/audiophile.mp4",
     img: audiophileImg,
     featuredImg: audiophileFeaturedImg,
     description:
@@ -35,7 +34,6 @@ const projects = [
   {
     id: 2,
     name: "SecurePass",
-    video: "/videos/securepass.mp4",
     img: securePassImg,
     featuredImg: securePassFeaturedImg,
     description: "A strong random password generator.",
@@ -49,7 +47,6 @@ const projects = [
   {
     id: 3,
     name: "Quizzical",
-    video: "/videos/quizzical.mp4",
     img: quizzicalImg,
     featuredImg: quizzicalFeaturedImg,
     description: "A quiz app that gets data from The Open Trivia Database API.",
@@ -63,7 +60,6 @@ const projects = [
   {
     id: 4,
     name: "Dictionary Web App",
-    video: "/videos/dictionary-web-app.mp4",
     img: dictionaryImg,
     featuredImg: dictionaryFeaturedImg,
     description:
@@ -78,7 +74,6 @@ const projects = [
   {
     id: 5,
     name: "Tenzies",
-    video: "/videos/tenzies.mp4",
     img: tenziesImg,
     description: "Easy to learn dice game that players of all ages will enjoy.",
     classes: ["icon--react", "icon--js", "icon--css"],
@@ -91,7 +86,6 @@ const projects = [
   {
     id: 6,
     name: "Splitter",
-    video: "/videos/splitter.mp4",
     img: splitterImg,
     description: "A web app that allows you to easily split bills/tips.",
     classes: ["icon--html", "icon--tailwind", "icon--js"],
@@ -104,7 +98,6 @@ const projects = [
   {
     id: 7,
     name: "Planet Facts",
-    video: "/videos/planet-facts.mp4",
     img: planetFactsImg,
     description:
       "A fully responsive website that allows you to explore facts about all of the planets in our solar system.",
@@ -118,7 +111,6 @@ const projects = [
   {
     id: 8,
     name: "Meme Generator",
-    video: "/videos/meme-generator.mp4",
     img: memeGeneratorImg,
     description:
       "Generates random meme images using the Imgflip API. You can add text to the generated image.",
@@ -132,7 +124,6 @@ const projects = [
   {
     id: 9,
     name: "Notifications Page",
-    video: "/videos/notifications-page.mp4",
     img: notificationsPageImg,
     description: "A notifications page challenge from frontendmentor.io.",
     classes: ["icon--react", "icon--js", "icon--css"],
@@ -145,7 +136,6 @@ const projects = [
   {
     id: 10,
     name: "Huddle",
-    video: "/videos/huddle.mp4",
     img: huddleImg,
     description:
       "Huddle re-imagines the way we build communities. Create connections with your users as you engage in genuine discussion.",
@@ -159,7 +149,6 @@ const projects = [
   {
     id: 11,
     name: "Fruit of the Sea",
-    video: "/videos/fruit-of-the-sea.mp4",
     img: fruitOfTheSeaImg,
     description:
       "A fully responsive word guessing game set up to mimic the feel of a game show.",
@@ -173,7 +162,6 @@ const projects = [
   {
     id: 12,
     name: "Employee Directory",
-    video: "/videos/employee-directory.mp4",
     img: employeeDirectoryImg,
     description:
       "A fully responsive employee directory that allows you to search for specific employees by name. Utilizes Fetch API to access Random User Generator API.",
