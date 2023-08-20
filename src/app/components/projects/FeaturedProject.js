@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ProjectTech from "@/app/components/projects/ProjectTech";
 import ProjectBtns from "@/app/components/projects/ProjectBtns";
 import styles from "./FeaturedProject.module.scss";
@@ -5,19 +6,26 @@ import styles from "./FeaturedProject.module.scss";
 export default function FeaturedProject(props) {
   return (
     <>
-      <article
-        className={`${styles.project} ${
-          props.project.id === 1
-            ? styles["project--left"]
-            : props.project.id === 3
-            ? styles["project--left"]
-            : styles["project--right"]
-        }`}
-      >
+      <article className={styles.project}>
         <div className={styles.container}>
-          <video className={styles.video} width="100" autoPlay muted loop>
-            <source src={props.project.video} type="video/mp4" />
-          </video>
+          <div className={styles.imgContainer}>
+            <Image
+              className={`${styles.img} ${
+                props.project.name === "Audiophile"
+                  ? styles["img--audiophile"]
+                  : props.project.name === "SecurePass"
+                  ? styles["img--securepass"]
+                  : props.project.name === "Quizzical"
+                  ? styles["img--quizzical"]
+                  : styles["img--dictionary"]
+              }`}
+              src={props.project.featuredImg}
+              alt="project screenshot"
+              width="0"
+              height="0"
+              sizes="100vw"
+            />
+          </div>
           <div className={styles["container--bottom"]}>
             <h3 className={styles.heading}>{props.project.name}</h3>
             <p className={styles.description}>{props.project.description}</p>
