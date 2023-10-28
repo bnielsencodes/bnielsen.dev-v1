@@ -18,8 +18,18 @@
       background: $color-neutral-100;
     }
     & .imgContainer {
-      height: 164px;
+      height: 175px;
       overflow-y: hidden;
+      &.stretchImg {
+        width: 100%;
+        height: auto;
+      }
+      &.securePassBg {
+        background: #18171f;
+      }
+      &.dictionaryBg {
+        background: #030303;
+      }
       & .img {
         width: 100%;
         height: auto;

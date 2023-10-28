@@ -8,7 +8,21 @@ export default function FeaturedProject(props) {
     <>
       <article className={styles.project}>
         <div className={styles.container}>
-          <div className={styles.imgContainer}>
+          <div
+            className={`${styles.imgContainer} ${
+              props.project.name === "SecurePass" ||
+              props.project.name === "Dictionary Web App" ||
+              props.project.name === "Quizzical"
+                ? styles.stretchImg
+                : null
+            } ${
+              props.project.name === "SecurePass"
+                ? styles.securePassBg
+                : props.project.name === "Dictionary Web App"
+                ? styles.dictionaryBg
+                : null
+            }`}
+          >
             <Image
               className={`${styles.img} ${
                 props.project.name === "Audiophile"
