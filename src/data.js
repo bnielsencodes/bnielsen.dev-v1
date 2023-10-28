@@ -23,7 +23,7 @@ const projects = [
     img: audiophileImg,
     featuredImg: audiophileFeaturedImg,
     description:
-      "An e-commerce website for a fictional company named Audiophile that is a one stop shop for all things audio.",
+      "A multi-page e-commerce website with cart functionality and a checkout process.",
     classes: ["icon--nextjs", "icon--react", "icon--js"],
     skillOne: "Next",
     skillTwo: "React",
