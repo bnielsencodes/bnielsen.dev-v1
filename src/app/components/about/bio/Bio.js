@@ -3,6 +3,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapPin } from "@fortawesome/pro-duotone-svg-icons";
 import { motion } from "framer-motion";
+import BioImage from "./BioImage";
 import ResumeBtn from "./resumeBtn";
 import styles from "./Bio.module.scss";
 
@@ -24,20 +25,7 @@ export default function Bio() {
         <article
           className={`${styles.bio} ${reveal ? styles.marginBottom : null}`}
         >
-          <div className={styles.imgContainer}>
-            <div className={styles.imgBorderContainer}>
-              <div className={styles.imgBorderOuter}>
-                <div className={styles.imgBorderInner}>
-                  <div className={styles.imgBorderInner2}></div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.bioHex}>
-              <div className={styles.inner1}>
-                <div className={styles.inner2}></div>
-              </div>
-            </div>
-          </div>
+          <BioImage />
           <div className={styles.locationContainer}>
             <div className={styles.inner}>
               <div className={styles.icon}>
