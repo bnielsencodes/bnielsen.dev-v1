@@ -3,6 +3,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapPin } from "@fortawesome/pro-duotone-svg-icons";
 import { motion } from "framer-motion";
+import ResumeBtn from "./resumeBtn";
 import styles from "./Bio.module.scss";
 
 export default function Bio() {
@@ -98,6 +99,7 @@ export default function Bio() {
             </>
           )}
 
+          <ResumeBtn />
         </article>
       </motion.div>
     </>
