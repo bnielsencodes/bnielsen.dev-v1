@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
-import { skills } from "../../../data";
-import Skill from "@/app/components/about/Skill";
+import { skills } from "../../../../data";
+import Skill from "@/app/components/about/skills/Skill";
 import styles from "./Skills.module.scss";
 
 const skillsLeft = skills.slice(0, 3).map((skill) => {

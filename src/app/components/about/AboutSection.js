@@ -1,5 +1,5 @@
 import Bio from "@/app/components/about/Bio";
-import Skills from "@/app/components/about/Skills";
+import Skills from "@/app/components/about/skills/Skills";
 import styles from "./AboutSection.module.scss";
 
 export default function AboutSection() {
