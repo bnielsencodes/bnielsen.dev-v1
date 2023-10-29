@@ -1,0 +1,54 @@
+@import "../../../../styles/variables.module.scss",
+  "../../../../styles/mixins.module.scss";
+
+.imgContainer {
+  position: relative;
+  width: 205px;
+  & .imgBorderContainer {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    & .imgBorderOuter {
+      width: 332px;
+      height: 166px;
+      margin: 0 0 0 -64px;
+      overflow: hidden;
+      visibility: hidden;
+      @include vendor-prefixs(transform, rotate(120deg));
+      & .imgBorderInner {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        @include vendor-prefixs(transform, rotate(-60deg));
+        & .imgBorderInner2 {
+          width: 100%;
+          height: 100%;
+          background: $color-secondary;
+          visibility: visible;
+          @include vendor-prefixs(transform, rotate(-60deg));
+        }
+      }
+    }
+  }
+  & .bioHex {
+    width: 320px;
+    height: 160px;
+    margin: 0 0 0 -58px;
+    overflow: hidden;
+    visibility: hidden;
+    @include vendor-prefixs(transform, rotate(120deg));
+    & .inner1 {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      @include vendor-prefixs(transform, rotate(-60deg));
+      & .inner2 {
+        width: 100%;
+        height: 100%;
+        background: url("/images/avatar.jpeg") 50%/184px no-repeat;
+        visibility: visible;
+        @include vendor-prefixs(transform, rotate(-60deg));
+      }
+    }
+  }
+}
