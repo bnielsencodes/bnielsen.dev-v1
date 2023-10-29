@@ -1,4 +1,4 @@
-import Bio from "@/app/components/about/Bio";
+import Bio from "@/app/components/about/bio/Bio";
 import Skills from "@/app/components/about/skills/Skills";
 import styles from "./AboutSection.module.scss";
 
