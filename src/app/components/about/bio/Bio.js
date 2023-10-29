@@ -26,6 +26,7 @@ export default function Bio() {
           className={`${styles.bio} ${reveal ? styles.marginBottom : null}`}
         >
           <BioImage />
+
           <div className={styles.locationContainer}>
             <div className={styles.inner}>
               <div className={styles.icon}>
@@ -37,6 +38,7 @@ export default function Bio() {
               <h4 className={styles.location}>Oregon, US</h4>
             </div>
           </div>
+
           <p className={styles.text}>
             My journey in the world of web development has equipped me with a
             unique set of skills, enabling me to combine analytical thinking
