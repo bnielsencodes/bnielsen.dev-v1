@@ -10,7 +10,7 @@ export default function HeaderIntro() {
           <span className={styles.span}> Brandon</span>
           <span className={styles.span}> Nielsen</span>,
         </h2>
-        <h2 className={styles.subheading}>a front-end web developer.</h2>
+        <h2 className={styles.subheading}>a web developer.</h2>
       </div>
       <HeaderCTABtn />
     </>
