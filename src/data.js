@@ -49,7 +49,8 @@ const projects = [
     name: "Quizzical",
     img: quizzicalImg,
     featuredImg: quizzicalFeaturedImg,
-    description: "A quiz app that gets data from The Open Trivia Database API.",
+    description:
+      "A quiz app that fetches data from The Open Trivia Database API.",
     classes: ["icon--react", "icon--js", "icon--css"],
     skillOne: "React",
     skillTwo: "JavaScript",
@@ -63,7 +64,7 @@ const projects = [
     img: dictionaryImg,
     featuredImg: dictionaryFeaturedImg,
     description:
-      "A dictionary web app that pulls data from the Free Dictionary API.",
+      "A dictionary web app that fetches data from the Free Dictionary API.",
     classes: ["icon--react", "icon--js", "icon--css"],
     skillOne: "React",
     skillTwo: "JavaScript",
