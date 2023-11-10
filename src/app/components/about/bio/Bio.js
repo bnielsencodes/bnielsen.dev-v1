@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapPin } from "@fortawesome/pro-duotone-svg-icons";
 import { motion } from "framer-motion";
 import BioImage from "./BioImage";
-import ResumeBtn from "./resumeBtn";
+import ResumeBtn from "./ResumeBtn";
 import styles from "./Bio.module.scss";
 
 export default function Bio() {
